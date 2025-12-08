@@ -1,0 +1,26 @@
+# Core
+Flask==3.0.3
+python-dotenv==1.0.1
+
+# LangChain stack
+langchain==0.2.12
+langchain-community==0.2.9
+langchain-openai==0.1.17
+openai>=1.30.0
+tiktoken==0.7.0
+
+# PDF / parsing
+pypdf==4.2.0     # needed by LangChain's PyPDFLoader
+PyPDF2==3.0.1    # you import PdfReader directly too
+pdf2image==1.17.0
+Pillow>=10.3.0
+
+# ML / vector search
+numpy==1.26.4    # FAISS wheels are built against NumPy 1.x
+scikit-learn==1.4.2
+faiss-cpu==1.7.4
+
+# Computer vision / OCR (used by easyocr)
+opencv-python==4.8.1.78    # this plays nicely with NumPy 1.x
+easyocr==1.7.1
+matplotlib==3.8.4

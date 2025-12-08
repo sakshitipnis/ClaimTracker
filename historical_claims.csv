@@ -1,0 +1,1001 @@
+Claim_ID,Disease,Hospital_Tier,Claim_Amount,Status,Fraud,Date
+CLM60868,Cataract,Tier 1,50503.7,Approved,0,2023-07-06
+CLM73022,Diabetes,Tier 3,10805.7,Rejected,1,2023-11-13
+CLM55295,Diabetes,Tier 3,5596.65,Approved,0,2023-05-05
+CLM80385,Appendicitis,Tier 2,223076.82,Approved,0,2023-05-25
+CLM22535,Hypertension,Tier 2,3588.51,Approved,0,2023-07-11
+CLM97374,Covid-19,Tier 2,102516.9,Approved,0,2023-07-02
+CLM40417,Migraine,Tier 2,1976.8,Approved,0,2023-07-13
+CLM51719,Hypertension,Tier 1,5213.49,Rejected,0,2023-04-19
+CLM93947,Hypertension,Tier 3,3240.02,Approved,0,2023-05-09
+CLM21674,Pneumonia,Tier 2,60442.18,Approved,0,2023-02-17
+CLM90014,Broken Leg,Tier 1,206607.52,Approved,0,2023-07-09
+CLM74936,Heart Attack,Tier 1,509652.14,Approved,0,2023-01-22
+CLM16983,Flu,Tier 1,3030.88,Approved,0,2023-12-09
+CLM27611,Pneumonia,Tier 3,52624.81,Approved,0,2023-02-26
+CLM91266,Covid-19,Tier 2,98629.35,Approved,0,2023-07-07
+CLM32773,Flu,Tier 2,2294.73,Approved,0,2023-09-02
+CLM34697,Flu,Tier 3,1608.75,Approved,0,2023-07-27
+CLM12968,Covid-19,Tier 3,81557.4,Approved,0,2023-01-13
+CLM14765,Hypertension,Tier 2,3551.64,Approved,0,2023-06-17
+CLM57583,Migraine,Tier 3,1604.93,Approved,0,2023-03-06
+CLM61148,Pneumonia,Tier 1,62810.73,Approved,0,2023-07-24
+CLM32162,Heart Attack,Tier 3,313578.23,Approved,0,2023-07-14
+CLM92042,Pneumonia,Tier 1,81786.91,Approved,0,2023-01-29
+CLM29698,Covid-19,Tier 1,131416.6,Approved,0,2023-12-26
+CLM91276,Broken Leg,Tier 1,269745.35,Rejected,0,2023-05-07
+CLM24648,Broken Leg,Tier 1,191472.8,Approved,0,2023-12-28
+CLM78272,Cataract,Tier 2,40241.02,Approved,0,2023-02-17
+CLM19055,Cataract,Tier 3,38740.72,Approved,0,2023-07-11
+CLM77802,Hypertension,Tier 3,5513.14,Rejected,1,2023-06-09
+CLM55102,Covid-19,Tier 1,134455.39,Approved,0,2023-01-15
+CLM20056,Diabetes,Tier 2,5427.6,Approved,0,2023-10-05
+CLM49830,Appendicitis,Tier 1,355578.72,Rejected,0,2023-10-07
+CLM67295,Broken Leg,Tier 2,202921.1,Approved,0,2023-02-01
+CLM43250,Migraine,Tier 1,2774.39,Approved,0,2023-10-17
+CLM10775,Flu,Tier 2,2376.06,Approved,0,2023-02-05
+CLM36071,Broken Leg,Tier 3,136334.79,Approved,0,2023-09-17
+CLM72067,Hypertension,Tier 3,2544.35,Approved,0,2023-03-08
+CLM95434,Migraine,Tier 1,3199.08,Approved,0,2023-06-03
+CLM43703,Pneumonia,Tier 2,68047.7,Approved,0,2023-04-23
+CLM19767,Flu,Tier 2,2607.12,Approved,0,2023-09-26
+CLM43558,Covid-19,Tier 2,229068.11,Rejected,1,2023-02-24
+CLM45419,Covid-19,Tier 2,112344.07,Approved,0,2023-10-14
+CLM67528,Diabetes,Tier 2,6349.55,Approved,0,2023-06-26
+CLM99485,Hypertension,Tier 1,4976.6,Approved,0,2023-02-18
+CLM78329,Cataract,Tier 2,48539.64,Approved,0,2023-11-08
+CLM66638,Covid-19,Tier 3,85107.76,Approved,0,2023-06-12
+CLM32042,Diabetes,Tier 3,7497.84,Rejected,1,2023-01-23
+CLM64394,Diabetes,Tier 3,5180.51,Approved,0,2023-03-21
+CLM87435,Migraine,Tier 3,1658.12,Approved,0,2023-06-26
+CLM63506,Diabetes,Tier 3,5454.04,Approved,0,2023-07-04
+CLM88582,Broken Leg,Tier 1,232152.55,Approved,0,2023-11-01
+CLM60998,Migraine,Tier 1,2560.8,Approved,0,2023-02-19
+CLM81915,Covid-19,Tier 2,114632.91,Approved,0,2023-05-09
+CLM87350,Flu,Tier 1,3107.37,Approved,0,2023-04-18
+CLM98813,Diabetes,Tier 1,6674.75,Approved,0,2023-04-11
+CLM97164,Hypertension,Tier 2,4279.11,Rejected,0,2023-05-06
+CLM35738,Cataract,Tier 1,52059.53,Approved,0,2023-05-18
+CLM20020,Hypertension,Tier 3,3127.97,Approved,0,2023-02-16
+CLM59344,Flu,Tier 3,2254.42,Approved,0,2023-02-24
+CLM10145,Diabetes,Tier 1,7743.7,Approved,0,2023-04-19
+CLM85980,Broken Leg,Tier 3,298012.06,Rejected,1,2023-05-31
+CLM41316,Cataract,Tier 3,44716.83,Approved,0,2023-09-04
+CLM11088,Heart Attack,Tier 2,367120.74,Approved,0,2023-08-14
+CLM87828,Heart Attack,Tier 2,424783.48,Rejected,0,2023-12-14
+CLM95087,Hypertension,Tier 2,3771.98,Approved,0,2023-11-30
+CLM38540,Covid-19,Tier 1,147789.92,Approved,0,2023-04-27
+CLM77890,Pneumonia,Tier 3,46741.59,Approved,0,2023-07-27
+CLM54730,Diabetes,Tier 2,5615.82,Approved,0,2023-10-20
+CLM70198,Appendicitis,Tier 2,232352.14,Approved,0,2023-12-03
+CLM81360,Migraine,Tier 3,1703.75,Approved,0,2023-02-23
+CLM63502,Hypertension,Tier 2,3507.41,Approved,0,2023-03-02
+CLM15534,Diabetes,Tier 1,6059.3,Approved,0,2023-05-14
+CLM68051,Flu,Tier 2,1934.78,Approved,0,2023-11-23
+CLM59441,Appendicitis,Tier 2,287666.28,Rejected,0,2023-02-11
+CLM93192,Broken Leg,Tier 1,257518.93,Approved,0,2023-07-14
+CLM43091,Migraine,Tier 2,2208.04,Approved,0,2023-01-04
+CLM85457,Broken Leg,Tier 1,205883.99,Approved,0,2023-12-31
+CLM37016,Migraine,Tier 2,2535.56,Approved,0,2023-09-25
+CLM98548,Heart Attack,Tier 3,250023.18,Approved,0,2023-04-23
+CLM15095,Broken Leg,Tier 1,198223.46,Approved,0,2023-10-30
+CLM67134,Migraine,Tier 3,2196.49,Approved,0,2023-10-25
+CLM39244,Broken Leg,Tier 3,165412.06,Approved,0,2023-08-03
+CLM83487,Cataract,Tier 1,50794.78,Approved,0,2023-07-18
+CLM72345,Migraine,Tier 2,1978.54,Approved,0,2023-07-09
+CLM66708,Hypertension,Tier 2,3424.96,Approved,0,2023-07-31
+CLM50631,Cataract,Tier 2,49156.53,Approved,0,2023-09-20
+CLM95943,Covid-19,Tier 3,109186.34,Approved,0,2023-02-02
+CLM68207,Hypertension,Tier 1,3859.49,Approved,0,2023-10-13
+CLM55907,Migraine,Tier 2,2831.67,Rejected,0,2023-03-07
+CLM34035,Diabetes,Tier 1,11584.94,Rejected,1,2023-12-17
+CLM22631,Flu,Tier 2,2610.36,Approved,0,2023-04-08
+CLM38736,Broken Leg,Tier 2,144608.27,Approved,0,2023-05-22
+CLM29351,Cataract,Tier 1,52864.67,Approved,0,2023-03-20
+CLM42218,Migraine,Tier 2,2146.46,Approved,0,2023-02-24
+CLM19469,Migraine,Tier 2,2740.57,Approved,0,2023-12-31
+CLM96025,Pneumonia,Tier 3,43364.97,Approved,0,2023-09-01
+CLM48400,Hypertension,Tier 2,3678.15,Approved,0,2023-08-29
+CLM58560,Diabetes,Tier 3,5290.2,Approved,0,2023-05-02
+CLM14819,Appendicitis,Tier 1,275572.72,Approved,0,2023-12-11
+CLM19738,Cataract,Tier 2,49653.89,Approved,0,2023-11-06
+CLM99375,Cataract,Tier 3,108959.22,Rejected,1,2023-07-04
+CLM62512,Hypertension,Tier 2,3040.88,Approved,0,2023-02-03
+CLM49263,Diabetes,Tier 2,6201.83,Approved,0,2023-05-21
+CLM50909,Broken Leg,Tier 1,256731.76,Approved,0,2023-07-06
+CLM24169,Appendicitis,Tier 3,183836.39,Approved,0,2024-01-01
+CLM86526,Pneumonia,Tier 1,69906.37,Approved,0,2023-07-02
+CLM58060,Pneumonia,Tier 3,54731.46,Approved,0,2023-11-19
+CLM49929,Migraine,Tier 3,1648.98,Approved,0,2023-02-02
+CLM83199,Migraine,Tier 1,2895.64,Approved,0,2023-08-07
+CLM17656,Appendicitis,Tier 2,269189.05,Approved,0,2023-11-21
+CLM14519,Appendicitis,Tier 1,297251.86,Approved,0,2023-01-30
+CLM73487,Heart Attack,Tier 1,462888.85,Approved,0,2023-12-20
+CLM37361,Covid-19,Tier 1,179732.35,Rejected,0,2023-08-13
+CLM54165,Migraine,Tier 2,2503.03,Approved,0,2023-02-26
+CLM75943,Broken Leg,Tier 3,129281.29,Approved,0,2023-08-16
+CLM99241,Cataract,Tier 3,42516.2,Approved,0,2023-06-23
+CLM23781,Cataract,Tier 2,45133.61,Approved,0,2023-10-25
+CLM85825,Diabetes,Tier 3,5246.1,Approved,0,2023-04-09
+CLM90975,Cataract,Tier 3,45828.69,Approved,0,2023-11-20
+CLM58809,Heart Attack,Tier 1,440450.65,Approved,0,2023-04-30
+CLM24552,Flu,Tier 1,3443.51,Approved,0,2023-11-24
+CLM62861,Appendicitis,Tier 3,199758.93,Approved,0,2023-05-26
+CLM66896,Covid-19,Tier 2,120710.87,Approved,0,2023-02-18
+CLM81012,Diabetes,Tier 3,4512.11,Approved,0,2023-11-11
+CLM41184,Pneumonia,Tier 1,60150.97,Approved,0,2023-09-26
+CLM60108,Flu,Tier 1,2794.57,Approved,0,2023-05-16
+CLM24108,Migraine,Tier 1,3591.63,Rejected,0,2023-08-15
+CLM63736,Diabetes,Tier 1,8382.49,Approved,0,2023-10-15
+CLM32331,Pneumonia,Tier 2,67320.61,Approved,0,2023-10-18
+CLM27372,Flu,Tier 3,2202.81,Approved,0,2023-04-30
+CLM24328,Heart Attack,Tier 3,242958.23,Approved,0,2023-09-01
+CLM37271,Covid-19,Tier 3,107805.23,Approved,0,2023-02-25
+CLM61370,Flu,Tier 1,2962.32,Approved,0,2023-07-06
+CLM71050,Hypertension,Tier 2,3300.81,Approved,0,2023-11-18
+CLM11645,Covid-19,Tier 1,170750.9,Approved,0,2023-02-18
+CLM43652,Hypertension,Tier 2,4120.39,Approved,0,2023-04-16
+CLM61854,Migraine,Tier 3,1640.34,Approved,0,2023-04-03
+CLM14658,Appendicitis,Tier 1,326309.49,Approved,0,2023-03-17
+CLM13344,Heart Attack,Tier 3,272784.22,Approved,0,2023-08-24
+CLM43436,Hypertension,Tier 1,4293.76,Approved,0,2023-10-10
+CLM89119,Heart Attack,Tier 1,370937.6,Approved,0,2023-09-06
+CLM84497,Migraine,Tier 1,2612.82,Approved,0,2023-05-26
+CLM92562,Broken Leg,Tier 2,144509.57,Approved,0,2023-11-07
+CLM90452,Hypertension,Tier 1,5331.68,Rejected,0,2023-05-03
+CLM97100,Appendicitis,Tier 2,285182.61,Rejected,0,2023-10-25
+CLM47832,Hypertension,Tier 3,2741.02,Approved,0,2023-05-06
+CLM53514,Appendicitis,Tier 3,356808.33,Rejected,1,2023-11-07
+CLM44547,Pneumonia,Tier 2,121220.17,Rejected,1,2023-04-18
+CLM20375,Migraine,Tier 1,6774.66,Rejected,1,2023-02-02
+CLM95523,Flu,Tier 3,1799.4,Approved,0,2023-09-23
+CLM71843,Migraine,Tier 1,2974.88,Approved,0,2023-06-11
+CLM53762,Flu,Tier 3,3043.41,Rejected,1,2023-04-26
+CLM66107,Hypertension,Tier 2,3340.71,Approved,0,2023-01-08
+CLM39464,Broken Leg,Tier 3,155768.15,Approved,0,2023-09-22
+CLM78478,Heart Attack,Tier 2,373070.23,Approved,0,2023-04-26
+CLM33746,Appendicitis,Tier 2,255418.4,Approved,0,2023-03-15
+CLM88707,Heart Attack,Tier 1,435103.76,Approved,0,2023-06-03
+CLM28126,Hypertension,Tier 2,3427.24,Approved,0,2023-07-24
+CLM19202,Appendicitis,Tier 1,303808.64,Approved,0,2023-10-30
+CLM93367,Pneumonia,Tier 3,60562.6,Rejected,1,2023-02-27
+CLM94317,Migraine,Tier 1,2428.15,Approved,0,2023-03-07
+CLM18508,Hypertension,Tier 3,3569.02,Rejected,0,2023-09-14
+CLM78773,Appendicitis,Tier 3,227400.69,Approved,0,2023-12-04
+CLM24669,Migraine,Tier 3,1897.53,Approved,0,2023-12-21
+CLM92351,Flu,Tier 3,2036.16,Approved,0,2023-03-05
+CLM78494,Hypertension,Tier 3,2913.11,Approved,0,2023-12-25
+CLM69689,Migraine,Tier 3,1689.31,Approved,0,2023-10-23
+CLM69918,Heart Attack,Tier 3,305276.0,Approved,0,2023-11-10
+CLM44345,Pneumonia,Tier 2,61298.19,Approved,0,2023-11-17
+CLM16799,Flu,Tier 1,2751.17,Approved,0,2023-10-09
+CLM67909,Hypertension,Tier 1,4210.39,Approved,0,2023-07-25
+CLM24954,Flu,Tier 2,2131.75,Approved,0,2023-09-29
+CLM42401,Pneumonia,Tier 2,67489.9,Approved,0,2023-08-06
+CLM75741,Hypertension,Tier 3,3254.61,Approved,0,2023-12-18
+CLM55627,Appendicitis,Tier 1,329962.61,Approved,0,2023-03-03
+CLM63190,Broken Leg,Tier 1,183584.24,Approved,0,2023-04-11
+CLM16186,Migraine,Tier 1,6840.17,Rejected,1,2023-09-18
+CLM47361,Heart Attack,Tier 3,354492.81,Rejected,0,2023-12-27
+CLM73180,Heart Attack,Tier 1,516626.4,Approved,0,2023-06-23
+CLM53032,Cataract,Tier 3,36569.64,Approved,0,2023-05-02
+CLM75295,Appendicitis,Tier 2,243250.22,Approved,0,2023-03-22
+CLM36681,Broken Leg,Tier 1,205649.74,Approved,0,2023-09-02
+CLM45091,Cataract,Tier 3,45425.84,Approved,0,2023-10-05
+CLM85882,Flu,Tier 3,1659.14,Approved,0,2023-05-01
+CLM97553,Pneumonia,Tier 3,57412.11,Approved,0,2023-03-24
+CLM51399,Migraine,Tier 2,2710.87,Approved,0,2023-05-05
+CLM30562,Cataract,Tier 1,54530.99,Approved,0,2023-05-22
+CLM44380,Flu,Tier 3,1839.78,Approved,0,2023-08-05
+CLM56345,Cataract,Tier 2,54946.18,Approved,0,2023-06-02
+CLM34455,Hypertension,Tier 1,4120.23,Approved,0,2023-12-16
+CLM90562,Covid-19,Tier 3,97695.3,Approved,0,2023-08-17
+CLM32264,Broken Leg,Tier 1,264991.57,Rejected,0,2023-02-08
+CLM63620,Broken Leg,Tier 2,207233.74,Rejected,0,2023-06-03
+CLM56971,Appendicitis,Tier 3,236354.03,Rejected,0,2023-06-28
+CLM86872,Appendicitis,Tier 3,161634.35,Approved,0,2023-12-05
+CLM42279,Diabetes,Tier 2,5376.9,Approved,0,2023-12-28
+CLM99033,Migraine,Tier 1,2983.85,Approved,0,2023-06-19
+CLM52993,Heart Attack,Tier 3,335384.55,Approved,0,2023-04-27
+CLM98699,Hypertension,Tier 3,7765.34,Rejected,1,2023-01-06
+CLM34714,Pneumonia,Tier 3,48327.24,Approved,0,2023-10-04
+CLM94047,Heart Attack,Tier 2,425334.54,Rejected,0,2023-08-30
+CLM15164,Migraine,Tier 1,3060.86,Approved,0,2023-04-24
+CLM45664,Appendicitis,Tier 2,262654.19,Approved,0,2023-09-02
+CLM11905,Covid-19,Tier 1,123788.21,Approved,0,2023-02-06
+CLM13851,Hypertension,Tier 3,3032.23,Approved,0,2023-02-10
+CLM98447,Cataract,Tier 3,33426.56,Approved,0,2023-08-03
+CLM93376,Broken Leg,Tier 2,146846.64,Approved,0,2023-06-05
+CLM19907,Covid-19,Tier 3,107778.53,Approved,0,2023-08-29
+CLM99103,Pneumonia,Tier 1,76789.61,Approved,0,2023-09-17
+CLM42940,Cataract,Tier 2,49613.7,Approved,0,2023-12-23
+CLM25613,Cataract,Tier 3,41931.37,Approved,0,2023-12-11
+CLM89127,Covid-19,Tier 2,98974.79,Approved,0,2023-02-21
+CLM64969,Covid-19,Tier 3,166769.44,Rejected,1,2023-07-03
+CLM22068,Appendicitis,Tier 2,224068.36,Approved,0,2023-01-24
+CLM55026,Covid-19,Tier 1,122877.22,Approved,0,2023-11-09
+CLM81166,Broken Leg,Tier 2,207130.96,Rejected,0,2023-09-04
+CLM45929,Broken Leg,Tier 1,263898.79,Rejected,0,2023-04-30
+CLM16806,Cataract,Tier 1,54652.3,Approved,0,2023-06-03
+CLM65629,Diabetes,Tier 3,12328.74,Rejected,1,2023-01-19
+CLM80581,Cataract,Tier 3,40088.88,Approved,0,2023-02-14
+CLM95173,Cataract,Tier 1,71700.27,Rejected,0,2023-03-06
+CLM56577,Diabetes,Tier 2,6310.13,Approved,0,2023-10-08
+CLM75229,Heart Attack,Tier 2,414814.52,Rejected,0,2023-07-06
+CLM12661,Cataract,Tier 2,51116.76,Approved,0,2023-05-26
+CLM55942,Covid-19,Tier 3,117322.76,Rejected,0,2023-09-26
+CLM71175,Appendicitis,Tier 1,279093.41,Approved,0,2023-04-29
+CLM72605,Pneumonia,Tier 2,56779.85,Approved,0,2023-10-09
+CLM92194,Broken Leg,Tier 1,234072.93,Approved,0,2023-07-09
+CLM17317,Heart Attack,Tier 1,407919.05,Approved,0,2023-09-28
+CLM96158,Flu,Tier 2,2703.59,Approved,0,2023-08-30
+CLM66044,Hypertension,Tier 2,3881.45,Approved,0,2023-09-27
+CLM84795,Pneumonia,Tier 2,140521.12,Rejected,1,2023-04-25
+CLM69901,Hypertension,Tier 2,4139.51,Approved,0,2023-07-02
+CLM78435,Flu,Tier 3,2190.64,Approved,0,2023-01-02
+CLM93156,Flu,Tier 3,1994.19,Approved,0,2023-09-07
+CLM79508,Hypertension,Tier 1,4281.33,Approved,0,2023-09-01
+CLM19009,Diabetes,Tier 2,5240.49,Approved,0,2023-08-23
+CLM94728,Hypertension,Tier 2,3802.57,Approved,0,2023-08-21
+CLM32618,Pneumonia,Tier 1,84977.85,Approved,0,2023-09-27
+CLM61011,Broken Leg,Tier 1,219021.12,Approved,0,2023-03-04
+CLM87266,Broken Leg,Tier 2,188098.53,Approved,0,2023-08-08
+CLM49119,Broken Leg,Tier 1,202992.57,Approved,0,2023-05-31
+CLM61377,Covid-19,Tier 3,118917.68,Rejected,0,2023-10-19
+CLM70191,Heart Attack,Tier 3,341876.6,Approved,0,2023-06-24
+CLM87884,Broken Leg,Tier 2,207054.89,Rejected,0,2023-08-25
+CLM10805,Pneumonia,Tier 2,62700.79,Approved,0,2023-03-17
+CLM33139,Migraine,Tier 2,2752.96,Approved,0,2023-01-28
+CLM72271,Heart Attack,Tier 1,1322275.23,Rejected,1,2023-12-24
+CLM85237,Migraine,Tier 1,3069.59,Approved,0,2023-10-14
+CLM58637,Flu,Tier 1,3517.33,Rejected,0,2023-11-12
+CLM10996,Heart Attack,Tier 1,505844.0,Approved,0,2023-05-14
+CLM62749,Hypertension,Tier 3,3005.48,Approved,0,2023-05-02
+CLM39848,Flu,Tier 1,2412.68,Approved,0,2023-02-03
+CLM62541,Cataract,Tier 2,39623.42,Approved,0,2023-06-17
+CLM17972,Broken Leg,Tier 1,233032.16,Approved,0,2023-08-03
+CLM80403,Cataract,Tier 3,36454.02,Approved,0,2023-05-12
+CLM66130,Hypertension,Tier 1,4036.25,Approved,0,2023-03-31
+CLM10245,Migraine,Tier 1,2839.53,Approved,0,2023-01-20
+CLM73186,Migraine,Tier 3,2140.36,Approved,0,2023-08-11
+CLM55782,Appendicitis,Tier 2,272438.53,Approved,0,2023-01-13
+CLM22854,Diabetes,Tier 2,15015.29,Rejected,1,2023-03-10
+CLM52718,Flu,Tier 2,2682.88,Approved,0,2023-03-10
+CLM96705,Migraine,Tier 1,2732.59,Approved,0,2023-11-13
+CLM33541,Heart Attack,Tier 1,432269.83,Approved,0,2023-03-06
+CLM57273,Flu,Tier 3,5450.72,Rejected,1,2023-12-07
+CLM47372,Flu,Tier 1,2488.08,Approved,0,2023-09-15
+CLM36287,Appendicitis,Tier 2,246979.0,Approved,0,2023-04-29
+CLM36059,Hypertension,Tier 1,3959.24,Approved,0,2023-08-31
+CLM24723,Flu,Tier 2,2506.55,Approved,0,2023-07-13
+CLM35501,Pneumonia,Tier 1,87272.05,Rejected,0,2023-07-17
+CLM95286,Heart Attack,Tier 3,295420.3,Approved,0,2023-12-18
+CLM76144,Appendicitis,Tier 3,484042.73,Rejected,1,2023-02-08
+CLM58380,Appendicitis,Tier 1,354528.18,Rejected,0,2023-08-06
+CLM76193,Covid-19,Tier 1,146354.07,Approved,0,2023-05-28
+CLM73623,Migraine,Tier 1,3009.17,Approved,0,2023-06-16
+CLM32580,Migraine,Tier 1,2472.16,Approved,0,2023-03-05
+CLM62611,Heart Attack,Tier 3,334158.16,Approved,0,2023-12-02
+CLM37509,Appendicitis,Tier 3,169703.35,Approved,0,2023-07-10
+CLM82029,Covid-19,Tier 1,135198.36,Approved,0,2023-09-24
+CLM95233,Pneumonia,Tier 3,49782.51,Approved,0,2023-10-24
+CLM53736,Heart Attack,Tier 1,368690.99,Approved,0,2023-01-23
+CLM96360,Flu,Tier 1,2666.27,Approved,0,2023-12-22
+CLM90826,Heart Attack,Tier 3,299221.91,Approved,0,2023-04-21
+CLM88736,Diabetes,Tier 3,4166.63,Approved,0,2023-07-28
+CLM96467,Hypertension,Tier 3,3013.73,Approved,0,2023-09-04
+CLM45800,Pneumonia,Tier 1,74334.21,Approved,0,2023-06-13
+CLM93432,Flu,Tier 1,3525.17,Rejected,0,2023-10-26
+CLM15308,Cataract,Tier 2,42303.63,Approved,0,2023-05-16
+CLM56811,Broken Leg,Tier 3,171781.65,Approved,0,2023-04-08
+CLM60826,Diabetes,Tier 2,6316.17,Approved,0,2023-09-01
+CLM88905,Migraine,Tier 1,2900.36,Approved,0,2023-10-08
+CLM46575,Appendicitis,Tier 2,201915.61,Approved,0,2023-01-23
+CLM77598,Heart Attack,Tier 1,476034.79,Approved,0,2023-07-06
+CLM97699,Cataract,Tier 1,59984.98,Approved,0,2023-10-09
+CLM11673,Pneumonia,Tier 3,49745.92,Approved,0,2023-03-15
+CLM61903,Broken Leg,Tier 2,211391.41,Rejected,0,2023-02-12
+CLM68938,Flu,Tier 3,4768.84,Rejected,1,2023-11-22
+CLM65738,Covid-19,Tier 1,177961.23,Rejected,0,2023-09-17
+CLM46153,Heart Attack,Tier 2,430577.96,Rejected,0,2023-08-05
+CLM35537,Migraine,Tier 3,4667.16,Rejected,1,2023-09-20
+CLM87768,Appendicitis,Tier 3,220716.09,Approved,0,2023-07-19
+CLM16258,Pneumonia,Tier 3,43838.04,Approved,0,2023-11-12
+CLM58187,Flu,Tier 3,2233.29,Approved,0,2023-12-10
+CLM32845,Diabetes,Tier 2,5513.02,Approved,0,2023-05-19
+CLM79959,Cataract,Tier 3,38753.85,Approved,0,2023-07-21
+CLM88066,Covid-19,Tier 2,128147.71,Approved,0,2023-06-23
+CLM60145,Flu,Tier 3,1603.47,Approved,0,2023-04-17
+CLM75479,Broken Leg,Tier 3,129418.7,Approved,0,2023-07-28
+CLM72388,Flu,Tier 1,3523.56,Rejected,0,2023-01-08
+CLM82722,Diabetes,Tier 1,8205.79,Approved,0,2023-06-16
+CLM33498,Migraine,Tier 2,2815.1,Rejected,0,2023-10-03
+CLM11000,Covid-19,Tier 1,138051.98,Approved,0,2023-01-28
+CLM63581,Hypertension,Tier 2,3643.99,Approved,0,2023-12-07
+CLM77271,Flu,Tier 2,6118.68,Rejected,1,2023-03-26
+CLM77042,Migraine,Tier 2,2541.71,Approved,0,2023-12-14
+CLM90351,Flu,Tier 3,2364.73,Rejected,0,2023-11-01
+CLM60924,Flu,Tier 1,3044.55,Approved,0,2023-11-22
+CLM59866,Hypertension,Tier 1,3632.64,Approved,0,2023-06-29
+CLM70619,Broken Leg,Tier 3,138402.25,Approved,0,2023-11-11
+CLM34508,Cataract,Tier 1,71317.88,Rejected,0,2023-03-14
+CLM19756,Flu,Tier 2,2073.31,Approved,0,2023-04-19
+CLM58918,Cataract,Tier 2,43938.66,Approved,0,2023-03-14
+CLM80318,Covid-19,Tier 1,152798.54,Approved,0,2023-09-19
+CLM91195,Broken Leg,Tier 1,234344.41,Approved,0,2023-02-13
+CLM36082,Cataract,Tier 3,34230.55,Approved,0,2023-04-12
+CLM65265,Heart Attack,Tier 3,305376.09,Approved,0,2023-03-09
+CLM37937,Cataract,Tier 2,40755.6,Approved,0,2023-08-11
+CLM52971,Diabetes,Tier 1,7569.07,Approved,0,2023-05-08
+CLM50119,Cataract,Tier 3,42803.07,Approved,0,2023-05-06
+CLM98729,Appendicitis,Tier 2,253902.91,Approved,0,2023-10-21
+CLM31074,Broken Leg,Tier 1,224054.84,Approved,0,2023-07-17
+CLM58072,Migraine,Tier 1,3464.63,Rejected,0,2023-06-18
+CLM87960,Covid-19,Tier 2,266341.82,Rejected,1,2023-05-12
+CLM69855,Hypertension,Tier 2,2975.52,Approved,0,2023-01-12
+CLM51812,Hypertension,Tier 3,5247.76,Rejected,1,2023-11-22
+CLM77779,Broken Leg,Tier 2,163080.41,Approved,0,2023-09-18
+CLM84906,Heart Attack,Tier 3,322114.8,Approved,0,2023-10-06
+CLM61491,Cataract,Tier 2,40806.28,Approved,0,2023-07-14
+CLM25964,Flu,Tier 2,2095.3,Approved,0,2023-12-27
+CLM86135,Broken Leg,Tier 1,265602.52,Rejected,0,2023-05-21
+CLM60402,Broken Leg,Tier 2,180859.72,Approved,0,2023-03-17
+CLM85609,Broken Leg,Tier 3,142593.72,Approved,0,2023-06-21
+CLM10006,Heart Attack,Tier 3,263848.27,Approved,0,2023-01-15
+CLM78213,Cataract,Tier 2,49375.38,Approved,0,2023-10-09
+CLM45175,Broken Leg,Tier 3,152409.24,Approved,0,2023-01-19
+CLM47091,Broken Leg,Tier 3,171948.06,Approved,0,2023-02-17
+CLM57706,Flu,Tier 1,3508.37,Rejected,0,2023-09-14
+CLM64889,Broken Leg,Tier 1,248340.17,Approved,0,2023-10-20
+CLM44187,Migraine,Tier 2,2377.13,Approved,0,2023-11-09
+CLM82495,Pneumonia,Tier 3,52795.08,Approved,0,2023-04-18
+CLM54798,Cataract,Tier 2,75862.26,Rejected,1,2023-06-29
+CLM68266,Hypertension,Tier 1,5152.21,Approved,0,2023-12-19
+CLM69478,Migraine,Tier 2,2220.64,Approved,0,2023-04-28
+CLM41990,Heart Attack,Tier 1,685648.05,Rejected,1,2023-02-18
+CLM92448,Migraine,Tier 3,2177.07,Approved,0,2023-12-07
+CLM86121,Covid-19,Tier 3,90369.96,Approved,0,2023-11-07
+CLM45206,Heart Attack,Tier 3,310644.78,Approved,0,2023-10-07
+CLM30895,Appendicitis,Tier 3,188615.22,Approved,0,2023-05-19
+CLM36155,Migraine,Tier 1,2954.25,Approved,0,2023-05-06
+CLM54176,Appendicitis,Tier 3,191557.52,Approved,0,2023-12-27
+CLM30242,Flu,Tier 2,2010.73,Approved,0,2023-07-31
+CLM62391,Pneumonia,Tier 3,44334.79,Approved,0,2023-08-01
+CLM42737,Pneumonia,Tier 1,65519.28,Approved,0,2023-08-20
+CLM31254,Hypertension,Tier 1,5175.12,Rejected,0,2023-12-20
+CLM80270,Pneumonia,Tier 2,52531.33,Approved,0,2023-10-31
+CLM54420,Appendicitis,Tier 2,262986.62,Approved,0,2023-03-24
+CLM84305,Covid-19,Tier 2,124491.07,Approved,0,2023-04-05
+CLM34591,Pneumonia,Tier 2,58352.5,Approved,0,2023-01-15
+CLM91565,Covid-19,Tier 1,126858.89,Approved,0,2023-04-09
+CLM19752,Hypertension,Tier 1,4805.14,Approved,0,2023-12-05
+CLM13990,Appendicitis,Tier 1,331450.14,Approved,0,2023-12-22
+CLM86584,Diabetes,Tier 2,6882.44,Approved,0,2023-04-20
+CLM73695,Appendicitis,Tier 1,287546.18,Approved,0,2023-06-07
+CLM73540,Broken Leg,Tier 1,246960.64,Approved,0,2023-07-21
+CLM99891,Appendicitis,Tier 3,216643.26,Approved,0,2023-06-14
+CLM24072,Migraine,Tier 2,2164.9,Approved,0,2023-03-17
+CLM98556,Flu,Tier 2,1980.97,Approved,0,2023-05-09
+CLM65294,Diabetes,Tier 2,6021.34,Approved,0,2023-08-01
+CLM29722,Migraine,Tier 1,3221.46,Approved,0,2023-01-28
+CLM93568,Covid-19,Tier 2,131487.22,Approved,0,2023-02-14
+CLM22255,Cataract,Tier 3,44221.83,Approved,0,2023-06-30
+CLM49124,Cataract,Tier 3,32764.72,Approved,0,2023-02-06
+CLM94663,Flu,Tier 3,1606.4,Approved,0,2023-05-26
+CLM89449,Migraine,Tier 1,2414.77,Approved,0,2023-03-20
+CLM32912,Pneumonia,Tier 1,89924.24,Rejected,0,2023-06-26
+CLM36938,Covid-19,Tier 1,170659.41,Approved,0,2023-12-16
+CLM24533,Migraine,Tier 3,2079.44,Approved,0,2023-06-09
+CLM93856,Cataract,Tier 1,65716.37,Approved,0,2023-03-28
+CLM87040,Appendicitis,Tier 1,258220.85,Approved,0,2023-09-30
+CLM72814,Appendicitis,Tier 1,251369.72,Approved,0,2023-09-07
+CLM23538,Flu,Tier 3,3077.67,Rejected,1,2023-08-04
+CLM82395,Broken Leg,Tier 3,179773.94,Rejected,0,2023-08-26
+CLM56389,Flu,Tier 3,2211.12,Approved,0,2023-04-29
+CLM57948,Covid-19,Tier 3,91639.05,Approved,0,2023-08-20
+CLM45108,Broken Leg,Tier 1,180454.46,Approved,0,2023-05-25
+CLM83526,Pneumonia,Tier 1,60656.6,Approved,0,2023-12-19
+CLM96433,Diabetes,Tier 1,6874.82,Approved,0,2023-11-03
+CLM24562,Flu,Tier 3,2117.39,Approved,0,2023-05-25
+CLM42031,Broken Leg,Tier 3,138043.34,Approved,0,2023-06-18
+CLM53852,Appendicitis,Tier 1,290355.99,Approved,0,2023-07-21
+CLM34419,Broken Leg,Tier 1,217531.55,Approved,0,2023-03-28
+CLM92511,Broken Leg,Tier 2,193884.77,Approved,0,2023-03-06
+CLM38844,Covid-19,Tier 2,107418.82,Approved,0,2023-12-03
+CLM26607,Migraine,Tier 3,2342.95,Rejected,0,2023-01-30
+CLM69257,Cataract,Tier 2,41524.67,Approved,0,2023-11-14
+CLM62882,Flu,Tier 3,2366.93,Rejected,0,2023-12-07
+CLM20732,Hypertension,Tier 2,2897.53,Approved,0,2023-05-16
+CLM80324,Migraine,Tier 3,2148.32,Approved,0,2023-05-08
+CLM54275,Heart Attack,Tier 2,337173.85,Approved,0,2023-05-09
+CLM41743,Hypertension,Tier 1,5158.45,Approved,0,2023-03-12
+CLM58292,Appendicitis,Tier 1,256197.91,Approved,0,2023-11-06
+CLM47500,Appendicitis,Tier 3,163939.79,Approved,0,2023-01-16
+CLM36128,Cataract,Tier 3,63560.54,Rejected,1,2023-10-04
+CLM40299,Diabetes,Tier 2,6343.98,Approved,0,2023-04-05
+CLM31656,Heart Attack,Tier 1,443379.05,Approved,0,2023-11-24
+CLM62926,Covid-19,Tier 2,110234.06,Approved,0,2023-02-06
+CLM40195,Pneumonia,Tier 1,73576.9,Approved,0,2023-06-24
+CLM42824,Pneumonia,Tier 1,88920.15,Rejected,0,2023-12-05
+CLM40183,Broken Leg,Tier 3,167466.83,Approved,0,2023-10-06
+CLM84303,Covid-19,Tier 2,117636.84,Approved,0,2023-08-17
+CLM66783,Covid-19,Tier 1,149690.24,Approved,0,2023-02-24
+CLM82648,Diabetes,Tier 1,6097.17,Approved,0,2023-08-20
+CLM85813,Broken Leg,Tier 1,234697.85,Approved,0,2023-08-20
+CLM58020,Pneumonia,Tier 1,74659.2,Approved,0,2023-05-19
+CLM33988,Hypertension,Tier 1,12461.02,Rejected,1,2023-01-10
+CLM13104,Hypertension,Tier 1,5019.21,Approved,0,2023-03-10
+CLM51305,Broken Leg,Tier 1,207409.83,Approved,0,2023-01-06
+CLM92250,Hypertension,Tier 2,3704.89,Approved,0,2023-09-18
+CLM91413,Covid-19,Tier 1,177720.0,Rejected,0,2023-05-31
+CLM39293,Cataract,Tier 3,44975.46,Approved,0,2023-01-12
+CLM31478,Hypertension,Tier 1,4078.55,Approved,0,2023-03-19
+CLM35169,Pneumonia,Tier 1,78425.12,Approved,0,2023-01-18
+CLM65140,Broken Leg,Tier 2,177086.4,Approved,0,2023-08-12
+CLM83580,Broken Leg,Tier 3,132025.45,Approved,0,2023-02-19
+CLM68488,Appendicitis,Tier 1,248550.28,Approved,0,2023-08-20
+CLM20410,Covid-19,Tier 1,284739.84,Rejected,1,2023-02-05
+CLM93075,Pneumonia,Tier 2,48091.22,Approved,0,2023-07-20
+CLM64127,Diabetes,Tier 1,7155.07,Approved,0,2023-05-23
+CLM73919,Covid-19,Tier 1,151393.84,Approved,0,2023-11-19
+CLM11511,Covid-19,Tier 1,307521.95,Rejected,1,2023-02-28
+CLM85458,Covid-19,Tier 2,96146.02,Approved,0,2023-11-02
+CLM94915,Appendicitis,Tier 1,339906.06,Approved,0,2023-10-27
+CLM29014,Hypertension,Tier 2,4284.89,Rejected,0,2023-05-05
+CLM69284,Heart Attack,Tier 2,342649.26,Approved,0,2023-08-09
+CLM56154,Migraine,Tier 3,2006.88,Approved,0,2023-01-01
+CLM76809,Broken Leg,Tier 2,163883.51,Approved,0,2023-03-25
+CLM74777,Pneumonia,Tier 3,84185.09,Rejected,1,2023-02-01
+CLM68629,Appendicitis,Tier 2,202507.79,Approved,0,2023-02-15
+CLM69365,Flu,Tier 2,2725.05,Approved,0,2023-05-16
+CLM72321,Flu,Tier 3,5649.18,Rejected,1,2023-10-21
+CLM74667,Flu,Tier 1,2844.49,Approved,0,2023-02-10
+CLM15848,Hypertension,Tier 2,4064.71,Approved,0,2023-04-12
+CLM30595,Appendicitis,Tier 3,356132.24,Rejected,1,2023-08-12
+CLM56028,Diabetes,Tier 3,4485.04,Approved,0,2023-02-19
+CLM96566,Migraine,Tier 3,1814.31,Approved,0,2023-12-13
+CLM71875,Covid-19,Tier 1,140812.74,Approved,0,2023-12-18
+CLM34653,Migraine,Tier 3,1976.4,Approved,0,2023-09-10
+CLM11272,Flu,Tier 1,3238.94,Approved,0,2023-08-03
+CLM67064,Pneumonia,Tier 2,55610.59,Approved,0,2023-07-28
+CLM70081,Flu,Tier 1,2840.1,Approved,0,2023-12-18
+CLM48849,Appendicitis,Tier 3,213633.87,Approved,0,2023-09-20
+CLM65359,Hypertension,Tier 2,3156.03,Approved,0,2023-06-05
+CLM66277,Migraine,Tier 3,1706.38,Approved,0,2023-10-16
+CLM12041,Broken Leg,Tier 1,258799.83,Rejected,0,2023-11-29
+CLM97277,Pneumonia,Tier 3,51585.43,Approved,0,2023-02-25
+CLM44971,Pneumonia,Tier 2,55974.19,Approved,0,2023-05-12
+CLM45420,Appendicitis,Tier 2,208833.97,Approved,0,2023-12-06
+CLM52014,Covid-19,Tier 2,142068.58,Rejected,0,2023-04-14
+CLM35604,Flu,Tier 2,2318.41,Approved,0,2023-05-30
+CLM28875,Covid-19,Tier 2,141455.08,Rejected,0,2023-04-17
+CLM94519,Covid-19,Tier 2,103981.46,Approved,0,2023-10-15
+CLM43304,Heart Attack,Tier 2,418325.38,Rejected,0,2023-07-28
+CLM53750,Covid-19,Tier 1,161348.02,Approved,0,2023-07-01
+CLM27217,Flu,Tier 2,2171.07,Approved,0,2023-10-03
+CLM46267,Flu,Tier 1,3038.62,Approved,0,2023-11-11
+CLM98706,Covid-19,Tier 3,85360.94,Approved,0,2023-12-21
+CLM51312,Migraine,Tier 3,2068.59,Approved,0,2023-07-02
+CLM89020,Hypertension,Tier 1,4982.52,Approved,0,2023-02-08
+CLM25923,Cataract,Tier 2,56977.22,Rejected,0,2023-05-18
+CLM42515,Flu,Tier 3,1604.96,Approved,0,2023-03-16
+CLM43058,Cataract,Tier 3,45251.11,Approved,0,2023-08-16
+CLM42324,Diabetes,Tier 3,5902.54,Rejected,0,2023-04-10
+CLM42826,Flu,Tier 3,2315.99,Rejected,0,2023-10-19
+CLM32333,Covid-19,Tier 1,168630.38,Approved,0,2023-04-26
+CLM25117,Pneumonia,Tier 3,40059.64,Approved,0,2023-12-15
+CLM88950,Appendicitis,Tier 3,220116.08,Approved,0,2023-07-13
+CLM95023,Migraine,Tier 1,3358.05,Approved,0,2023-10-13
+CLM77935,Heart Attack,Tier 2,374699.49,Approved,0,2023-11-07
+CLM83551,Heart Attack,Tier 2,331830.72,Approved,0,2023-05-24
+CLM48635,Covid-19,Tier 3,107508.06,Approved,0,2023-04-19
+CLM72016,Appendicitis,Tier 2,243297.18,Approved,0,2023-05-04
+CLM46702,Cataract,Tier 3,35417.76,Approved,0,2023-07-02
+CLM77428,Cataract,Tier 2,41050.32,Approved,0,2023-06-28
+CLM46544,Covid-19,Tier 2,130141.21,Approved,0,2023-12-08
+CLM12692,Diabetes,Tier 3,5454.55,Approved,0,2023-09-18
+CLM23180,Diabetes,Tier 3,4929.22,Approved,0,2023-02-18
+CLM50735,Broken Leg,Tier 3,120937.45,Approved,0,2023-05-06
+CLM46941,Migraine,Tier 1,2839.95,Approved,0,2023-08-06
+CLM41751,Migraine,Tier 1,2797.76,Approved,0,2023-05-27
+CLM85229,Diabetes,Tier 2,5147.92,Approved,0,2023-04-27
+CLM42305,Diabetes,Tier 1,8450.73,Approved,0,2023-07-19
+CLM37943,Pneumonia,Tier 2,60239.53,Approved,0,2023-09-26
+CLM45486,Hypertension,Tier 1,4962.87,Approved,0,2023-07-20
+CLM99041,Heart Attack,Tier 3,265832.09,Approved,0,2023-12-27
+CLM17362,Diabetes,Tier 1,8823.02,Rejected,0,2023-05-12
+CLM30933,Pneumonia,Tier 3,45801.13,Approved,0,2023-05-05
+CLM21389,Heart Attack,Tier 2,389214.33,Approved,0,2023-09-11
+CLM18846,Broken Leg,Tier 2,214934.21,Rejected,0,2023-12-23
+CLM35330,Cataract,Tier 1,65890.5,Approved,0,2023-03-01
+CLM13869,Covid-19,Tier 2,106082.04,Approved,0,2023-08-15
+CLM46532,Broken Leg,Tier 2,168646.19,Approved,0,2023-10-18
+CLM22801,Pneumonia,Tier 1,65239.98,Approved,0,2023-08-07
+CLM97992,Broken Leg,Tier 3,153493.25,Approved,0,2023-04-26
+CLM36372,Flu,Tier 3,1908.51,Approved,0,2023-07-12
+CLM43224,Covid-19,Tier 3,108176.33,Approved,0,2023-06-06
+CLM54422,Pneumonia,Tier 2,67402.29,Approved,0,2023-04-19
+CLM36625,Broken Leg,Tier 3,169118.49,Approved,0,2023-06-17
+CLM49131,Heart Attack,Tier 3,335179.3,Approved,0,2023-03-14
+CLM42607,Pneumonia,Tier 1,78693.53,Approved,0,2023-11-21
+CLM36109,Appendicitis,Tier 1,286490.47,Approved,0,2023-03-19
+CLM62828,Hypertension,Tier 2,3389.15,Approved,0,2023-07-28
+CLM50465,Cataract,Tier 3,35547.81,Approved,0,2023-03-30
+CLM95130,Appendicitis,Tier 3,222755.76,Approved,0,2023-05-30
+CLM88390,Appendicitis,Tier 3,165051.11,Approved,0,2023-07-19
+CLM81507,Hypertension,Tier 1,4063.19,Approved,0,2023-04-29
+CLM58790,Migraine,Tier 2,2601.22,Approved,0,2023-02-03
+CLM75496,Migraine,Tier 2,2202.46,Approved,0,2023-10-11
+CLM21671,Broken Leg,Tier 3,166515.16,Approved,0,2023-05-27
+CLM90506,Hypertension,Tier 1,4441.36,Approved,0,2023-10-21
+CLM62019,Migraine,Tier 3,1859.89,Approved,0,2023-03-01
+CLM89932,Migraine,Tier 3,2835.05,Rejected,1,2023-11-02
+CLM72032,Broken Leg,Tier 2,161349.11,Approved,0,2023-03-07
+CLM51292,Diabetes,Tier 3,4716.61,Approved,0,2023-03-09
+CLM50403,Pneumonia,Tier 1,66568.78,Approved,0,2023-10-06
+CLM98175,Migraine,Tier 3,1870.09,Approved,0,2023-04-28
+CLM27056,Covid-19,Tier 3,113349.81,Approved,0,2023-06-01
+CLM54059,Heart Attack,Tier 2,366876.12,Approved,0,2023-09-06
+CLM12927,Flu,Tier 1,3109.01,Approved,0,2023-07-28
+CLM65723,Appendicitis,Tier 3,223688.51,Approved,0,2023-05-10
+CLM57558,Pneumonia,Tier 1,75178.14,Approved,0,2023-06-14
+CLM16716,Hypertension,Tier 3,3413.75,Approved,0,2023-06-20
+CLM73164,Heart Attack,Tier 3,328073.0,Approved,0,2023-10-28
+CLM86545,Heart Attack,Tier 2,308829.62,Approved,0,2023-08-21
+CLM81834,Hypertension,Tier 3,3450.5,Rejected,0,2023-02-03
+CLM84302,Pneumonia,Tier 2,53403.76,Approved,0,2023-02-27
+CLM46620,Appendicitis,Tier 3,226827.37,Approved,0,2023-10-23
+CLM53932,Covid-19,Tier 2,132611.4,Approved,0,2023-09-30
+CLM11799,Migraine,Tier 2,2277.74,Approved,0,2023-07-26
+CLM71929,Heart Attack,Tier 1,365942.68,Approved,0,2023-02-17
+CLM44409,Cataract,Tier 2,55627.91,Rejected,0,2023-01-12
+CLM65308,Flu,Tier 2,2398.19,Approved,0,2023-03-05
+CLM29409,Broken Leg,Tier 3,139762.54,Approved,0,2023-04-21
+CLM48182,Pneumonia,Tier 2,68878.03,Approved,0,2023-06-12
+CLM66311,Cataract,Tier 1,49678.38,Approved,0,2023-07-08
+CLM22315,Cataract,Tier 2,43367.1,Approved,0,2023-03-03
+CLM20436,Pneumonia,Tier 3,48333.8,Approved,0,2023-05-20
+CLM48391,Diabetes,Tier 3,5133.18,Approved,0,2023-07-01
+CLM14943,Covid-19,Tier 2,131452.27,Approved,0,2023-06-16
+CLM86922,Flu,Tier 3,2109.94,Approved,0,2023-04-16
+CLM69631,Flu,Tier 2,2664.19,Approved,0,2023-07-29
+CLM63609,Broken Leg,Tier 2,147172.2,Approved,0,2023-06-28
+CLM28653,Pneumonia,Tier 2,59502.12,Approved,0,2023-08-25
+CLM33845,Broken Leg,Tier 3,135816.01,Approved,0,2023-12-24
+CLM89103,Pneumonia,Tier 2,67523.67,Approved,0,2023-11-22
+CLM76324,Cataract,Tier 1,67378.17,Approved,0,2023-08-14
+CLM50611,Diabetes,Tier 3,4953.31,Approved,0,2023-04-27
+CLM54078,Diabetes,Tier 2,6470.92,Approved,0,2023-11-27
+CLM22580,Heart Attack,Tier 1,527610.14,Rejected,0,2023-07-12
+CLM65161,Broken Leg,Tier 3,139560.6,Approved,0,2023-11-09
+CLM34622,Broken Leg,Tier 2,154468.89,Approved,0,2023-06-25
+CLM97008,Hypertension,Tier 1,3621.52,Approved,0,2023-10-04
+CLM67759,Diabetes,Tier 3,5783.2,Rejected,0,2023-03-15
+CLM44415,Heart Attack,Tier 2,365332.35,Approved,0,2023-12-09
+CLM60174,Heart Attack,Tier 1,373895.38,Approved,0,2023-10-17
+CLM53200,Broken Leg,Tier 3,165465.24,Approved,0,2023-05-15
+CLM76446,Covid-19,Tier 3,110757.99,Approved,0,2023-05-01
+CLM17051,Covid-19,Tier 3,116530.55,Rejected,0,2023-08-05
+CLM59702,Migraine,Tier 2,2663.8,Approved,0,2023-10-24
+CLM61593,Heart Attack,Tier 2,381930.27,Approved,0,2023-02-18
+CLM51986,Flu,Tier 2,2625.4,Approved,0,2023-06-07
+CLM46747,Appendicitis,Tier 1,266861.5,Approved,0,2023-03-03
+CLM54049,Covid-19,Tier 3,115559.36,Rejected,0,2023-01-08
+CLM21233,Appendicitis,Tier 2,239342.4,Approved,0,2023-05-02
+CLM18063,Hypertension,Tier 1,3771.2,Approved,0,2023-12-21
+CLM53809,Heart Attack,Tier 3,242093.18,Approved,0,2023-07-17
+CLM14659,Pneumonia,Tier 3,42561.23,Approved,0,2023-01-20
+CLM94776,Hypertension,Tier 2,4030.29,Approved,0,2023-07-26
+CLM63239,Hypertension,Tier 3,3257.75,Approved,0,2023-01-19
+CLM68612,Broken Leg,Tier 2,204384.7,Approved,0,2023-06-03
+CLM19021,Hypertension,Tier 3,2457.13,Approved,0,2023-04-28
+CLM30270,Diabetes,Tier 3,4456.36,Approved,0,2023-04-12
+CLM16650,Diabetes,Tier 1,6862.94,Approved,0,2023-03-23
+CLM14950,Hypertension,Tier 1,5121.55,Approved,0,2023-12-10
+CLM37153,Diabetes,Tier 2,6278.34,Approved,0,2023-02-23
+CLM29704,Flu,Tier 3,1784.53,Approved,0,2023-03-12
+CLM96082,Cataract,Tier 1,48200.78,Approved,0,2023-01-27
+CLM41286,Hypertension,Tier 3,2982.49,Approved,0,2023-03-03
+CLM85103,Pneumonia,Tier 2,71802.84,Rejected,0,2023-02-01
+CLM77305,Diabetes,Tier 1,6450.85,Approved,0,2023-08-06
+CLM82445,Covid-19,Tier 2,226116.19,Rejected,1,2023-07-07
+CLM81516,Flu,Tier 1,2875.76,Approved,0,2023-08-04
+CLM65559,Hypertension,Tier 2,3625.64,Approved,0,2023-04-26
+CLM27181,Pneumonia,Tier 1,62819.81,Approved,0,2023-09-18
+CLM31677,Heart Attack,Tier 1,406471.01,Approved,0,2023-04-02
+CLM16595,Appendicitis,Tier 2,281525.95,Rejected,0,2023-04-24
+CLM16814,Migraine,Tier 1,3192.6,Approved,0,2023-06-29
+CLM12764,Heart Attack,Tier 2,399252.85,Approved,0,2023-11-01
+CLM43619,Appendicitis,Tier 2,251054.98,Approved,0,2023-04-22
+CLM38414,Diabetes,Tier 2,4957.68,Approved,0,2023-07-07
+CLM98024,Diabetes,Tier 3,5254.81,Approved,0,2023-01-11
+CLM11840,Flu,Tier 2,2840.52,Rejected,0,2023-11-08
+CLM59605,Diabetes,Tier 3,5676.37,Approved,0,2023-05-04
+CLM41571,Flu,Tier 1,3334.89,Approved,0,2023-10-10
+CLM98809,Heart Attack,Tier 1,413290.44,Approved,0,2023-08-13
+CLM91169,Pneumonia,Tier 3,48173.42,Approved,0,2023-02-16
+CLM76582,Cataract,Tier 1,67617.76,Approved,0,2023-01-23
+CLM59579,Pneumonia,Tier 2,49389.08,Approved,0,2023-10-04
+CLM55632,Covid-19,Tier 3,112964.87,Approved,0,2023-09-26
+CLM11193,Migraine,Tier 2,2228.82,Approved,0,2023-10-27
+CLM85404,Hypertension,Tier 3,2785.74,Approved,0,2023-12-12
+CLM73822,Covid-19,Tier 3,107260.92,Approved,0,2023-06-18
+CLM34250,Hypertension,Tier 2,2918.98,Approved,0,2023-04-28
+CLM89191,Cataract,Tier 2,56796.01,Rejected,0,2023-03-30
+CLM48747,Heart Attack,Tier 3,354455.96,Rejected,0,2023-05-24
+CLM95795,Heart Attack,Tier 3,353556.84,Rejected,0,2023-12-21
+CLM61665,Diabetes,Tier 3,5299.84,Approved,0,2023-07-01
+CLM99695,Migraine,Tier 2,2829.64,Rejected,0,2023-09-24
+CLM85965,Heart Attack,Tier 1,392959.58,Approved,0,2023-09-24
+CLM98027,Cataract,Tier 1,60404.08,Approved,0,2023-05-01
+CLM45184,Broken Leg,Tier 1,224904.06,Approved,0,2023-04-10
+CLM81999,Migraine,Tier 1,3570.5,Rejected,0,2023-11-08
+CLM94611,Heart Attack,Tier 3,292898.36,Approved,0,2023-11-14
+CLM25417,Appendicitis,Tier 3,212253.94,Approved,0,2023-12-06
+CLM96962,Migraine,Tier 3,2385.23,Rejected,0,2023-01-18
+CLM11068,Migraine,Tier 2,2194.78,Approved,0,2023-03-10
+CLM31342,Cataract,Tier 1,48751.38,Approved,0,2023-02-19
+CLM44797,Covid-19,Tier 2,138053.51,Rejected,0,2023-08-16
+CLM10599,Flu,Tier 2,2076.36,Approved,0,2023-03-30
+CLM53729,Diabetes,Tier 3,4455.57,Approved,0,2023-09-20
+CLM19378,Covid-19,Tier 3,107174.39,Approved,0,2023-05-05
+CLM99977,Diabetes,Tier 2,6507.05,Approved,0,2023-04-11
+CLM77227,Cataract,Tier 3,43643.45,Approved,0,2023-11-04
+CLM57748,Diabetes,Tier 3,5628.1,Approved,0,2023-06-23
+CLM85389,Appendicitis,Tier 3,187134.48,Approved,0,2023-11-05
+CLM28243,Broken Leg,Tier 3,139344.18,Approved,0,2023-04-16
+CLM84674,Cataract,Tier 1,58452.6,Approved,0,2023-08-01
+CLM37359,Flu,Tier 2,2616.85,Approved,0,2023-02-23
+CLM11685,Broken Leg,Tier 3,134413.55,Approved,0,2023-10-15
+CLM82563,Heart Attack,Tier 2,364999.18,Approved,0,2023-08-06
+CLM64360,Diabetes,Tier 2,6252.44,Approved,0,2023-08-24
+CLM46082,Cataract,Tier 3,35660.98,Approved,0,2023-08-14
+CLM57073,Migraine,Tier 2,2438.12,Approved,0,2023-11-29
+CLM12766,Pneumonia,Tier 1,81636.11,Approved,0,2023-05-21
+CLM79145,Cataract,Tier 2,46499.74,Approved,0,2023-04-24
+CLM56496,Heart Attack,Tier 2,411901.95,Approved,0,2023-04-23
+CLM58725,Covid-19,Tier 1,139371.96,Approved,0,2023-06-14
+CLM55490,Cataract,Tier 1,48617.21,Approved,0,2023-07-09
+CLM63043,Appendicitis,Tier 2,224337.8,Approved,0,2023-03-02
+CLM68164,Hypertension,Tier 3,4258.1,Rejected,1,2023-08-17
+CLM17028,Broken Leg,Tier 3,165999.35,Approved,0,2023-12-14
+CLM43428,Flu,Tier 2,1921.52,Approved,0,2023-11-27
+CLM15267,Cataract,Tier 1,57773.72,Approved,0,2023-08-02
+CLM41451,Appendicitis,Tier 2,221904.95,Approved,0,2023-09-28
+CLM90335,Diabetes,Tier 1,7605.67,Approved,0,2023-04-16
+CLM70773,Migraine,Tier 1,3001.79,Approved,0,2023-06-30
+CLM10618,Flu,Tier 3,2389.63,Rejected,0,2023-08-09
+CLM37895,Cataract,Tier 2,53269.66,Approved,0,2023-02-27
+CLM98573,Covid-19,Tier 2,128507.61,Approved,0,2023-05-24
+CLM16797,Pneumonia,Tier 1,84364.93,Approved,0,2023-07-15
+CLM63707,Covid-19,Tier 1,148780.96,Approved,0,2023-06-07
+CLM49821,Migraine,Tier 3,1784.84,Approved,0,2023-11-28
+CLM77586,Cataract,Tier 2,52993.51,Approved,0,2023-11-30
+CLM59120,Migraine,Tier 2,6423.85,Rejected,1,2023-09-23
+CLM39547,Hypertension,Tier 3,2883.74,Approved,0,2023-09-22
+CLM31365,Diabetes,Tier 3,5219.69,Approved,0,2023-10-10
+CLM10005,Diabetes,Tier 3,5914.46,Rejected,0,2023-11-19
+CLM86078,Heart Attack,Tier 3,252850.83,Approved,0,2023-07-26
+CLM31814,Diabetes,Tier 1,6843.64,Approved,0,2023-12-27
+CLM45470,Covid-19,Tier 1,135377.22,Approved,0,2023-06-02
+CLM84779,Covid-19,Tier 1,159238.48,Approved,0,2023-12-24
+CLM21330,Flu,Tier 1,2769.67,Approved,0,2023-06-29
+CLM24302,Flu,Tier 2,2784.23,Rejected,0,2023-08-15
+CLM33083,Heart Attack,Tier 2,418192.58,Rejected,0,2023-05-07
+CLM62593,Migraine,Tier 2,2008.86,Approved,0,2023-06-11
+CLM64506,Pneumonia,Tier 3,56103.44,Approved,0,2023-09-17
+CLM14197,Covid-19,Tier 2,103195.93,Approved,0,2023-07-17
+CLM16324,Flu,Tier 2,2236.38,Approved,0,2023-03-01
+CLM53090,Heart Attack,Tier 3,248613.13,Approved,0,2023-11-18
+CLM70974,Cataract,Tier 2,44712.54,Approved,0,2023-03-15
+CLM72162,Diabetes,Tier 1,7308.49,Approved,0,2023-12-18
+CLM19397,Flu,Tier 1,3129.38,Approved,0,2023-10-05
+CLM45163,Flu,Tier 3,1951.17,Approved,0,2023-02-21
+CLM55226,Migraine,Tier 2,1983.23,Approved,0,2023-09-08
+CLM46630,Migraine,Tier 1,2766.93,Approved,0,2023-10-24
+CLM20329,Pneumonia,Tier 3,41405.06,Approved,0,2023-09-13
+CLM37090,Appendicitis,Tier 2,279168.86,Rejected,0,2023-12-24
+CLM18770,Migraine,Tier 3,1650.28,Approved,0,2023-04-25
+CLM29300,Flu,Tier 3,1681.25,Approved,0,2023-08-14
+CLM84169,Covid-19,Tier 3,112440.51,Approved,0,2023-09-17
+CLM57748,Heart Attack,Tier 1,521340.19,Rejected,0,2023-12-23
+CLM98595,Covid-19,Tier 2,129926.84,Approved,0,2023-06-06
+CLM33698,Pneumonia,Tier 1,60854.67,Approved,0,2023-08-07
+CLM11673,Pneumonia,Tier 3,42910.95,Approved,0,2023-04-27
+CLM49203,Cataract,Tier 2,57025.58,Rejected,0,2023-03-12
+CLM80372,Appendicitis,Tier 2,654791.3,Rejected,1,2023-07-07
+CLM57150,Migraine,Tier 3,2136.92,Approved,0,2023-08-27
+CLM18326,Diabetes,Tier 1,6144.41,Approved,0,2023-06-17
+CLM46464,Heart Attack,Tier 2,416706.29,Rejected,0,2023-01-05
+CLM53115,Broken Leg,Tier 1,240941.04,Approved,0,2023-07-10
+CLM68713,Pneumonia,Tier 1,74479.44,Approved,0,2023-05-25
+CLM46495,Flu,Tier 2,2619.59,Approved,0,2023-01-25
+CLM48177,Diabetes,Tier 2,5510.52,Approved,0,2023-04-15
+CLM59594,Cataract,Tier 2,50783.32,Approved,0,2023-09-03
+CLM40098,Broken Leg,Tier 3,149054.02,Approved,0,2023-09-02
+CLM38419,Broken Leg,Tier 1,200136.67,Approved,0,2023-12-21
+CLM99675,Migraine,Tier 2,2693.92,Approved,0,2023-03-19
+CLM37478,Cataract,Tier 2,50471.51,Approved,0,2023-12-18
+CLM28930,Flu,Tier 1,3005.62,Approved,0,2023-09-18
+CLM83190,Appendicitis,Tier 1,285944.1,Approved,0,2023-01-07
+CLM80636,Diabetes,Tier 2,4817.87,Approved,0,2023-08-12
+CLM64279,Cataract,Tier 3,38562.17,Approved,0,2023-02-26
+CLM64872,Cataract,Tier 1,63300.97,Approved,0,2023-02-09
+CLM88349,Broken Leg,Tier 2,185744.64,Approved,0,2023-08-06
+CLM73608,Diabetes,Tier 3,5260.44,Approved,0,2023-04-11
+CLM34823,Pneumonia,Tier 1,75476.73,Approved,0,2023-04-09
+CLM87936,Broken Leg,Tier 1,266359.91,Rejected,0,2023-06-17
+CLM79303,Heart Attack,Tier 3,350211.67,Rejected,0,2023-04-30
+CLM69842,Flu,Tier 2,2009.64,Approved,0,2023-07-07
+CLM67169,Diabetes,Tier 1,6987.02,Approved,0,2023-12-30
+CLM32942,Broken Leg,Tier 2,153701.45,Approved,0,2023-10-07
+CLM59936,Flu,Tier 1,3420.15,Approved,0,2023-07-27
+CLM74094,Cataract,Tier 3,65825.92,Rejected,1,2023-12-26
+CLM70156,Migraine,Tier 1,2621.02,Approved,0,2023-11-15
+CLM31863,Broken Leg,Tier 3,152014.51,Approved,0,2023-08-24
+CLM44499,Diabetes,Tier 3,4425.5,Approved,0,2023-06-26
+CLM61968,Covid-19,Tier 1,142456.65,Approved,0,2023-09-12
+CLM10777,Broken Leg,Tier 2,144475.75,Approved,0,2023-07-20
+CLM81937,Broken Leg,Tier 1,259724.52,Rejected,0,2023-04-29
+CLM93911,Covid-19,Tier 1,133980.53,Approved,0,2023-02-11
+CLM12047,Cataract,Tier 2,43198.11,Approved,0,2023-05-23
+CLM56050,Flu,Tier 3,2264.06,Approved,0,2023-09-27
+CLM19220,Broken Leg,Tier 3,430796.18,Rejected,1,2023-04-18
+CLM77106,Cataract,Tier 2,46145.35,Approved,0,2023-05-16
+CLM61479,Pneumonia,Tier 2,69969.46,Rejected,0,2023-07-26
+CLM98293,Flu,Tier 2,2611.45,Approved,0,2023-01-11
+CLM27272,Heart Attack,Tier 3,240883.97,Approved,0,2023-03-27
+CLM58740,Pneumonia,Tier 2,65943.98,Approved,0,2023-03-18
+CLM90046,Heart Attack,Tier 3,300913.29,Approved,0,2023-03-21
+CLM75873,Cataract,Tier 3,44082.46,Approved,0,2023-04-25
+CLM30029,Broken Leg,Tier 2,210205.04,Rejected,0,2023-08-07
+CLM98640,Covid-19,Tier 3,97606.1,Approved,0,2023-04-25
+CLM72757,Flu,Tier 1,3358.13,Approved,0,2023-03-15
+CLM71900,Covid-19,Tier 2,96709.66,Approved,0,2023-06-23
+CLM50607,Heart Attack,Tier 1,525566.63,Rejected,0,2023-05-01
+CLM76922,Covid-19,Tier 3,102831.99,Approved,0,2023-01-01
+CLM98444,Pneumonia,Tier 1,63828.98,Approved,0,2023-10-29
+CLM50006,Hypertension,Tier 1,3991.9,Approved,0,2023-06-05
+CLM57329,Broken Leg,Tier 2,199887.86,Approved,0,2023-01-16
+CLM53819,Flu,Tier 1,2562.84,Approved,0,2023-04-22
+CLM27832,Migraine,Tier 3,2153.03,Approved,0,2023-10-22
+CLM18518,Appendicitis,Tier 3,282381.19,Rejected,1,2023-10-09
+CLM10290,Cataract,Tier 2,47752.58,Approved,0,2023-06-19
+CLM99308,Pneumonia,Tier 3,49804.92,Approved,0,2023-03-10
+CLM66237,Migraine,Tier 2,2233.74,Approved,0,2023-09-17
+CLM37170,Appendicitis,Tier 2,258229.74,Approved,0,2023-01-18
+CLM94454,Broken Leg,Tier 3,167456.69,Approved,0,2023-04-16
+CLM47610,Pneumonia,Tier 2,50286.97,Approved,0,2023-12-20
+CLM66943,Pneumonia,Tier 3,46682.31,Approved,0,2023-02-03
+CLM36232,Diabetes,Tier 2,5888.29,Approved,0,2023-06-10
+CLM72003,Migraine,Tier 3,2373.64,Rejected,0,2023-01-18
+CLM74352,Diabetes,Tier 3,4470.5,Approved,0,2024-01-01
+CLM54049,Flu,Tier 1,2418.4,Approved,0,2023-06-02
+CLM96572,Cataract,Tier 2,130961.7,Rejected,1,2023-08-14
+CLM31411,Cataract,Tier 2,40403.9,Approved,0,2023-11-26
+CLM85273,Appendicitis,Tier 1,359656.71,Rejected,0,2023-12-21
+CLM79485,Broken Leg,Tier 3,178310.11,Rejected,0,2023-12-27
+CLM48026,Covid-19,Tier 3,88456.87,Approved,0,2023-11-23
+CLM91955,Diabetes,Tier 2,5918.32,Approved,0,2023-04-12
+CLM80481,Pneumonia,Tier 3,43220.46,Approved,0,2023-07-29
+CLM13409,Appendicitis,Tier 1,319436.17,Approved,0,2023-03-17
+CLM59843,Pneumonia,Tier 3,46543.94,Approved,0,2023-12-12
+CLM19551,Hypertension,Tier 2,3762.26,Approved,0,2023-07-05
+CLM80158,Covid-19,Tier 3,95231.11,Approved,0,2023-02-17
+CLM53610,Cataract,Tier 1,59851.36,Approved,0,2023-02-19
+CLM31020,Diabetes,Tier 1,6644.78,Approved,0,2023-11-29
+CLM93920,Covid-19,Tier 3,118084.44,Rejected,0,2023-03-31
+CLM19603,Diabetes,Tier 3,4367.31,Approved,0,2023-03-05
+CLM65931,Flu,Tier 2,2486.93,Approved,0,2023-05-14
+CLM45076,Broken Leg,Tier 1,194539.92,Approved,0,2023-05-02
+CLM54033,Broken Leg,Tier 2,425169.2,Rejected,1,2023-08-16
+CLM71894,Hypertension,Tier 2,10132.35,Rejected,1,2023-01-04
+CLM92661,Flu,Tier 3,1652.68,Approved,0,2023-08-26
+CLM83004,Appendicitis,Tier 1,342063.35,Approved,0,2023-08-30
+CLM92413,Migraine,Tier 3,2092.8,Approved,0,2023-02-12
+CLM35513,Flu,Tier 1,3488.23,Rejected,0,2023-05-05
+CLM87986,Heart Attack,Tier 1,445848.27,Approved,0,2023-12-19
+CLM26528,Flu,Tier 2,2048.81,Approved,0,2023-09-13
+CLM86890,Heart Attack,Tier 2,401370.74,Approved,0,2023-03-29
+CLM18700,Flu,Tier 2,2810.2,Rejected,0,2023-08-18
+CLM52707,Flu,Tier 1,2602.27,Approved,0,2023-10-21
+CLM89533,Appendicitis,Tier 2,241060.7,Approved,0,2023-11-11
+CLM19232,Pneumonia,Tier 3,50581.71,Approved,0,2023-03-09
+CLM16506,Pneumonia,Tier 1,62742.97,Approved,0,2023-07-27
+CLM15961,Broken Leg,Tier 3,132875.44,Approved,0,2023-09-03
+CLM14197,Broken Leg,Tier 3,123312.8,Approved,0,2023-02-13
+CLM55272,Hypertension,Tier 1,3883.28,Approved,0,2023-01-18
+CLM24305,Diabetes,Tier 2,6484.96,Approved,0,2023-07-05
+CLM46474,Pneumonia,Tier 1,72744.49,Approved,0,2023-04-12
+CLM54407,Pneumonia,Tier 2,55684.09,Approved,0,2023-06-04
+CLM13366,Broken Leg,Tier 2,155048.84,Approved,0,2023-05-02
+CLM90224,Hypertension,Tier 2,3405.24,Approved,0,2023-06-01
+CLM55665,Pneumonia,Tier 2,48888.54,Approved,0,2023-06-03
+CLM80115,Diabetes,Tier 1,6953.25,Approved,0,2023-09-12
+CLM11087,Flu,Tier 2,2589.11,Approved,0,2023-05-09
+CLM51726,Heart Attack,Tier 3,345921.96,Rejected,0,2023-12-09
+CLM52260,Broken Leg,Tier 1,554752.72,Rejected,1,2023-12-22
+CLM19411,Hypertension,Tier 1,3629.56,Approved,0,2023-07-09
+CLM80493,Hypertension,Tier 3,2886.84,Approved,0,2023-09-27
+CLM21212,Broken Leg,Tier 3,148917.69,Approved,0,2023-03-11
+CLM15835,Migraine,Tier 3,1687.18,Approved,0,2023-01-01
+CLM83142,Heart Attack,Tier 1,461504.84,Approved,0,2023-06-17
+CLM64536,Heart Attack,Tier 3,351693.08,Rejected,0,2023-03-10
+CLM59329,Cataract,Tier 3,37776.0,Approved,0,2023-04-30
+CLM25566,Covid-19,Tier 2,139837.02,Rejected,0,2023-02-24
+CLM61585,Migraine,Tier 3,1906.47,Approved,0,2023-09-04
+CLM89591,Broken Leg,Tier 1,194209.08,Approved,0,2023-08-20
+CLM16627,Flu,Tier 2,2318.52,Approved,0,2023-08-03
+CLM55454,Pneumonia,Tier 1,84563.18,Approved,0,2023-01-07
+CLM18857,Appendicitis,Tier 2,270045.84,Approved,0,2023-03-27
+CLM32619,Flu,Tier 3,1764.22,Approved,0,2023-11-10
+CLM74102,Broken Leg,Tier 1,186083.75,Approved,0,2023-04-03
+CLM93067,Covid-19,Tier 2,121052.61,Approved,0,2023-11-10
+CLM25585,Diabetes,Tier 3,5249.52,Approved,0,2023-10-28
+CLM27932,Appendicitis,Tier 1,267290.29,Approved,0,2023-09-29
+CLM98902,Appendicitis,Tier 2,608574.05,Rejected,1,2023-02-26
+CLM45863,Hypertension,Tier 2,3269.14,Approved,0,2023-12-26
+CLM99369,Migraine,Tier 1,2849.16,Approved,0,2023-06-23
+CLM30522,Flu,Tier 2,1935.27,Approved,0,2023-09-08
+CLM85119,Covid-19,Tier 2,124699.34,Approved,0,2023-08-14
+CLM70077,Broken Leg,Tier 3,141908.81,Approved,0,2023-12-03
+CLM47505,Pneumonia,Tier 2,61928.92,Approved,0,2023-06-29
+CLM18148,Appendicitis,Tier 2,221349.79,Approved,0,2023-08-21
+CLM40521,Migraine,Tier 1,2427.68,Approved,0,2023-03-30
+CLM23273,Flu,Tier 3,2099.97,Approved,0,2023-11-13
+CLM12221,Broken Leg,Tier 2,197599.38,Approved,0,2023-01-03
+CLM58886,Cataract,Tier 1,62475.75,Approved,0,2023-02-05
+CLM80903,Migraine,Tier 2,2222.57,Approved,0,2023-10-17
+CLM85436,Pneumonia,Tier 1,74755.62,Approved,0,2023-08-24
+CLM32362,Heart Attack,Tier 2,394166.44,Approved,0,2023-05-24
+CLM64940,Flu,Tier 3,1783.34,Approved,0,2023-07-24
+CLM87106,Appendicitis,Tier 3,239464.8,Rejected,0,2023-09-05
+CLM20157,Appendicitis,Tier 3,222592.02,Approved,0,2023-04-11
+CLM15150,Appendicitis,Tier 3,225604.46,Approved,0,2023-02-16
+CLM65942,Flu,Tier 3,2153.18,Approved,0,2023-02-23
+CLM16725,Flu,Tier 3,1864.27,Approved,0,2023-03-05
+CLM60445,Appendicitis,Tier 2,214681.87,Approved,0,2023-04-13
+CLM83573,Cataract,Tier 1,66089.1,Approved,0,2023-07-21
+CLM57124,Heart Attack,Tier 1,521040.2,Rejected,0,2023-10-17
+CLM99676,Covid-19,Tier 1,125398.95,Approved,0,2023-04-08
+CLM47812,Diabetes,Tier 1,8683.03,Rejected,0,2023-01-18
+CLM61394,Hypertension,Tier 2,3444.83,Approved,0,2023-08-02
+CLM70164,Hypertension,Tier 2,3480.14,Approved,0,2023-10-05
+CLM78332,Pneumonia,Tier 2,68581.2,Approved,0,2023-06-11
+CLM18840,Appendicitis,Tier 3,219510.89,Approved,0,2023-02-13
+CLM32239,Pneumonia,Tier 1,67970.6,Approved,0,2023-02-28
+CLM11362,Heart Attack,Tier 3,270053.49,Approved,0,2023-04-06
+CLM12085,Cataract,Tier 3,38246.79,Approved,0,2023-12-19
+CLM49445,Cataract,Tier 2,41358.98,Approved,0,2023-01-24
+CLM55724,Heart Attack,Tier 1,517334.13,Approved,0,2023-09-18
+CLM47872,Heart Attack,Tier 3,326779.39,Approved,0,2023-11-05
+CLM51409,Migraine,Tier 2,2383.23,Approved,0,2023-03-02
+CLM72871,Diabetes,Tier 2,6151.12,Approved,0,2023-09-11
+CLM32936,Diabetes,Tier 3,4993.38,Approved,0,2023-08-04
+CLM37177,Appendicitis,Tier 1,267690.6,Approved,0,2023-05-15
+CLM56979,Hypertension,Tier 1,4297.89,Approved,0,2023-07-03
+CLM21167,Appendicitis,Tier 2,226357.38,Approved,0,2023-12-07
+CLM61439,Heart Attack,Tier 1,475871.76,Approved,0,2023-01-23
+CLM31070,Diabetes,Tier 1,8630.13,Rejected,0,2023-08-29
+CLM63679,Heart Attack,Tier 2,327251.33,Approved,0,2023-06-14
+CLM37804,Cataract,Tier 3,40116.43,Approved,0,2023-07-12
+CLM10862,Hypertension,Tier 1,4245.74,Approved,0,2023-04-17
+CLM43631,Migraine,Tier 1,2910.09,Approved,0,2023-06-17
+CLM35265,Appendicitis,Tier 1,302785.23,Approved,0,2023-12-23
+CLM87730,Pneumonia,Tier 3,43077.54,Approved,0,2023-07-09
+CLM10157,Heart Attack,Tier 1,422690.9,Approved,0,2023-10-20
+CLM87491,Diabetes,Tier 2,5597.34,Approved,0,2023-12-22
+CLM32406,Diabetes,Tier 3,5618.29,Approved,0,2023-12-07
+CLM92926,Broken Leg,Tier 2,163125.4,Approved,0,2023-01-23
+CLM56855,Covid-19,Tier 3,86424.15,Approved,0,2023-09-08
+CLM30569,Hypertension,Tier 2,3368.66,Approved,0,2023-11-16
+CLM17971,Heart Attack,Tier 3,306595.0,Approved,0,2023-08-24
+CLM82258,Broken Leg,Tier 2,151734.21,Approved,0,2023-03-11
+CLM63687,Diabetes,Tier 2,6879.95,Approved,0,2023-10-05
+CLM62835,Heart Attack,Tier 3,337484.86,Approved,0,2023-06-23
+CLM29895,Pneumonia,Tier 3,45531.73,Approved,0,2023-10-17
+CLM65252,Diabetes,Tier 3,4502.63,Approved,0,2023-10-24
+CLM63066,Diabetes,Tier 3,5696.74,Approved,0,2023-04-03
+CLM24853,Pneumonia,Tier 1,63631.91,Approved,0,2023-10-21
+CLM22391,Cataract,Tier 2,42311.83,Approved,0,2023-06-22
+CLM16138,Diabetes,Tier 2,6006.58,Approved,0,2023-12-28
+CLM12267,Diabetes,Tier 1,13307.61,Rejected,1,2023-12-28
+CLM17579,Migraine,Tier 3,2241.49,Approved,0,2023-10-11
+CLM11121,Heart Attack,Tier 3,308768.01,Approved,0,2023-01-07
+CLM79114,Broken Leg,Tier 3,128605.77,Approved,0,2023-07-28
+CLM14790,Flu,Tier 2,2605.89,Approved,0,2023-07-17
+CLM34015,Appendicitis,Tier 3,230432.15,Rejected,0,2023-12-12
+CLM15345,Pneumonia,Tier 2,49786.63,Approved,0,2023-01-29
+CLM73204,Cataract,Tier 3,37424.01,Approved,0,2023-02-25
+CLM64708,Diabetes,Tier 1,13131.87,Rejected,1,2023-12-27
+CLM66914,Cataract,Tier 1,56368.54,Approved,0,2023-10-11
+CLM30561,Diabetes,Tier 1,6767.54,Approved,0,2023-04-25
+CLM92225,Covid-19,Tier 1,120442.12,Approved,0,2023-06-22
+CLM55841,Cataract,Tier 3,46967.49,Rejected,0,2023-11-25
+CLM55238,Diabetes,Tier 2,10497.75,Rejected,1,2023-09-05
+CLM38560,Pneumonia,Tier 1,74297.06,Approved,0,2023-03-09
+CLM38905,Broken Leg,Tier 3,123154.14,Approved,0,2023-12-26
+CLM50946,Hypertension,Tier 2,4097.03,Approved,0,2023-08-24
+CLM88230,Covid-19,Tier 1,120996.18,Approved,0,2023-01-06
+CLM47531,Heart Attack,Tier 2,413452.55,Approved,0,2023-03-28
+CLM55624,Cataract,Tier 2,42338.0,Approved,0,2023-09-03
+CLM66229,Cataract,Tier 2,40159.8,Approved,0,2023-10-16
+CLM59880,Appendicitis,Tier 2,264585.02,Approved,0,2023-10-23
+CLM38312,Flu,Tier 3,1918.33,Approved,0,2023-10-01
+CLM38847,Flu,Tier 1,2411.05,Approved,0,2023-03-11
+CLM98963,Diabetes,Tier 3,5189.47,Approved,0,2023-12-29
+CLM27902,Covid-19,Tier 2,102758.54,Approved,0,2023-01-07
+CLM56437,Cataract,Tier 1,65429.27,Approved,0,2023-02-23
+CLM83279,Broken Leg,Tier 3,141374.81,Approved,0,2023-05-17
+CLM58697,Heart Attack,Tier 1,517935.27,Rejected,0,2023-02-16
+CLM49340,Heart Attack,Tier 3,240369.32,Approved,0,2023-08-05
+CLM24689,Cataract,Tier 1,66426.26,Approved,0,2023-01-02
+CLM56786,Migraine,Tier 2,2124.64,Approved,0,2023-09-30
+CLM37158,Heart Attack,Tier 3,298413.28,Approved,0,2023-02-14
+CLM85077,Covid-19,Tier 3,85671.08,Approved,0,2023-04-10
+CLM67476,Diabetes,Tier 1,7803.23,Approved,0,2023-04-30
+CLM21691,Broken Leg,Tier 1,215427.86,Approved,0,2023-11-14
+CLM64996,Migraine,Tier 3,1779.1,Approved,0,2023-02-14
+CLM28516,Covid-19,Tier 1,123595.34,Approved,0,2023-07-27
+CLM61896,Migraine,Tier 3,2353.63,Rejected,0,2023-10-22
+CLM34669,Covid-19,Tier 1,175062.33,Rejected,0,2023-03-18
+CLM64718,Hypertension,Tier 3,2450.17,Approved,0,2023-02-14
+CLM67583,Heart Attack,Tier 2,347721.84,Approved,0,2023-06-28
+CLM82935,Pneumonia,Tier 1,74889.8,Approved,0,2023-05-17
+CLM43673,Heart Attack,Tier 3,344512.22,Approved,0,2023-12-26
+CLM96356,Migraine,Tier 1,7531.19,Rejected,1,2023-04-28
+CLM88690,Flu,Tier 2,2615.13,Approved,0,2023-10-23
+CLM87458,Covid-19,Tier 2,103638.84,Approved,0,2023-07-23
+CLM70782,Appendicitis,Tier 2,261867.24,Approved,0,2023-08-14
+CLM59843,Broken Leg,Tier 1,255485.39,Approved,0,2023-08-12
+CLM24821,Hypertension,Tier 1,4476.45,Approved,0,2023-12-01
+CLM98377,Cataract,Tier 2,42658.36,Approved,0,2023-12-27
+CLM22403,Migraine,Tier 1,3080.61,Approved,0,2023-09-07
+CLM70478,Flu,Tier 2,2262.19,Approved,0,2023-03-21
+CLM79800,Pneumonia,Tier 2,56469.2,Approved,0,2023-08-05
+CLM46466,Hypertension,Tier 2,3086.7,Approved,0,2023-09-11
+CLM95886,Diabetes,Tier 1,6553.58,Approved,0,2023-02-03
+CLM41697,Flu,Tier 2,2562.72,Approved,0,2023-10-30
+CLM22855,Broken Leg,Tier 2,175427.22,Approved,0,2023-10-17
+CLM24951,Pneumonia,Tier 1,89038.56,Rejected,0,2023-04-28
+CLM24210,Diabetes,Tier 3,4517.65,Approved,0,2023-07-13
+CLM59602,Broken Leg,Tier 3,163941.28,Approved,0,2023-12-03
+CLM52368,Appendicitis,Tier 3,230688.09,Rejected,0,2023-06-08
+CLM33202,Broken Leg,Tier 1,196648.27,Approved,0,2023-05-18
+CLM86319,Migraine,Tier 2,2054.42,Approved,0,2023-09-15
+CLM26401,Cataract,Tier 2,45593.64,Approved,0,2023-08-10
+CLM80982,Diabetes,Tier 2,6896.73,Approved,0,2023-04-12
+CLM35212,Covid-19,Tier 1,175265.87,Rejected,0,2023-04-18
+CLM29541,Appendicitis,Tier 1,240403.52,Approved,0,2023-06-14
+CLM44003,Diabetes,Tier 3,5876.23,Rejected,0,2023-09-25
+CLM57847,Broken Leg,Tier 1,248237.83,Approved,0,2023-07-29
+CLM56654,Pneumonia,Tier 3,47111.15,Approved,0,2023-01-19
+CLM46477,Appendicitis,Tier 3,228314.66,Approved,0,2023-02-02
+CLM38436,Covid-19,Tier 2,143713.02,Rejected,0,2023-10-10
+CLM42881,Covid-19,Tier 3,104514.76,Approved,0,2023-07-03
+CLM38740,Appendicitis,Tier 3,163632.04,Approved,0,2023-02-13
+CLM46438,Migraine,Tier 3,2036.6,Approved,0,2023-10-27
+CLM61534,Pneumonia,Tier 2,63785.6,Approved,0,2023-07-24
+CLM79358,Appendicitis,Tier 1,264257.15,Approved,0,2023-05-03
+CLM73438,Cataract,Tier 3,35425.46,Approved,0,2023-12-05
+CLM56175,Appendicitis,Tier 1,270221.18,Approved,0,2023-07-27
+CLM71601,Migraine,Tier 2,2162.14,Approved,0,2023-11-04
+CLM70091,Cataract,Tier 1,71472.1,Rejected,0,2023-08-10
+CLM18899,Hypertension,Tier 2,3363.98,Approved,0,2023-07-24
+CLM35885,Cataract,Tier 1,62543.68,Approved,0,2023-04-18
+CLM38176,Diabetes,Tier 1,7161.08,Approved,0,2023-09-18
+CLM61158,Diabetes,Tier 3,4226.79,Approved,0,2023-08-05
+CLM68048,Diabetes,Tier 3,5500.69,Approved,0,2023-07-28
+CLM27534,Migraine,Tier 2,2714.11,Approved,0,2023-10-21
+CLM47754,Cataract,Tier 1,50808.59,Approved,0,2023-04-30
+CLM87084,Appendicitis,Tier 1,271997.93,Approved,0,2023-09-04
+CLM82902,Diabetes,Tier 1,8131.68,Approved,0,2023-02-22
+CLM74630,Hypertension,Tier 3,2879.91,Approved,0,2023-01-03
+CLM34549,Heart Attack,Tier 1,416937.4,Approved,0,2023-02-13
+CLM82998,Migraine,Tier 1,2965.56,Approved,0,2023-10-26
+CLM91155,Broken Leg,Tier 3,133757.11,Approved,0,2023-08-25
+CLM15625,Migraine,Tier 2,2437.44,Approved,0,2023-08-31
+CLM65098,Broken Leg,Tier 3,139915.59,Approved,0,2023-02-10
+CLM16991,Migraine,Tier 1,3333.69,Approved,0,2023-02-26
+CLM54605,Broken Leg,Tier 1,216802.79,Approved,0,2023-12-16
+CLM59372,Flu,Tier 2,2700.03,Approved,0,2023-02-26
