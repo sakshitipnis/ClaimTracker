@@ -58,14 +58,6 @@
               class="font-bold">{{medical_facility}}</span></p>
           <p class="mt-6 sm:text-lg leading-8 text-gray-600">Total Claim Amount - <span
               class="font-bold">{{total_claim_amount}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">Estimated Fair Price - <span
-              class="font-bold text-green-600">{{fair_price}}</span></p>
-          <p class="mt-6 sm:text-lg leading-8 text-gray-600">AI Fraud Risk -
-            <span
-              class="font-bold {% if fraud_risk_level == 'HIGH RISK' %}text-red-600{% elif fraud_risk_level == 'Medium Risk' %}text-yellow-600{% else %}text-green-600{% endif %}">
-              {{fraud_risk_level}} ({{fraud_score}})
-            </span>
-          </p>
           <p class="mt-6 sm:text-lg leading-8 text-gray-600">Description - <span
               class="font-bold">{{description}}</span></p>
           <p class="mt-6 sm:text-lg leading-8 text-gray-600 text-center">{{ output | safe }}</p>

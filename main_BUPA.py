@@ -272,14 +272,12 @@ from langchain.schema import Document
 
 # PDF and basic NLP
 from PyPDF2 import PdfReader
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import pandas as pd
-import joblib
 
-import pandas as pd
 import joblib
 import difflib
+import numpy as np
+import base64
+import fitz  # PyMuPDF
 
 # Known diseases from training data
 KNOWN_DISEASES = [
@@ -287,16 +285,7 @@ KNOWN_DISEASES = [
     "Appendicitis", "Cataract", "Pneumonia", "Covid-19", "Migraine"
 ]
 
-# Load Models
-try:
-    fair_price_model = joblib.load("fair_price_model.pkl")
-except:
-    fair_price_model = None
-
-try:
-    fraud_model = joblib.load("fraud_model.pkl")
-except:
-    fraud_model = None
+# Models removed
 
 # -----------------------------
 # Env & OpenAI client
@@ -372,12 +361,81 @@ def get_general_exclusion_context() -> str:
 # -----------------------------
 # PDF handling
 # -----------------------------
+# -----------------------------
+# PDF handling
+# -----------------------------
+# -----------------------------
+# PDF handling
+# -----------------------------
+def get_pdf_text_via_vision(file_bytes) -> str:
+    """
+    Fallback: Convert PDF bytes to images (PyMuPDF) and use OpenAI Vision (GPT-4o) to extract text.
+    """
+    print("DEBUG: Starting Vision OCR...")
+    text_out = ""
+    try:
+        # 1. Open PDF from bytes
+        doc = fitz.open(stream=file_bytes, filetype="pdf")
+        
+        # 2. Iterate pages
+        for i, page in enumerate(doc):
+            print(f"DEBUG: Vision Processing page {i+1}...")
+            # Render page to image (PNG)
+            pix = page.get_pixmap()
+            img_bytes = pix.tobytes("png")
+            
+            # Encode to base64
+            img_b64 = base64.b64encode(img_bytes).decode("utf-8")
+            
+            # 3. Call OpenAI Vision
+            # We use a direct chat completion call here
+            llm_vision = ChatOpenAI(model="gpt-4o", max_tokens=2000)
+            
+            response = llm_vision.invoke(
+                [
+                    {"role": "system", "content": "You are an OCR machine. Extract all text from this image exactly as it appears. Do not summarize."},
+                    {"role": "user", "content": [
+                        {"type": "text", "text": "Extract text from this medical bill page."},
+                        {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_b64}"}}
+                    ]}
+                ]
+            )
+            text_out += response.content + "\n"
+            
+    except Exception as e:
+        print(f"DEBUG: Vision OCR Failed: {e}")
+        return f" [Vision OCR Failed: {str(e)}]"
+
+    return text_out
+
 def get_file_content(file_storage) -> str:
     text = ""
     if file_storage and file_storage.filename.lower().endswith(".pdf"):
-        reader = PdfReader(file_storage)
-        for page in reader.pages:
-            text += (page.extract_text() or "")
+        # Read all bytes first to allow multiple passes.
+        file_bytes = file_storage.read()
+        file_storage.seek(0) # Reset for safety if needed elsewhere
+        
+        # 1. Try Standard PyPDF2 extraction
+        try:
+            from io import BytesIO
+            reader = PdfReader(BytesIO(file_bytes))
+            for page in reader.pages:
+                text += (page.extract_text() or "")
+        except Exception as e:
+            print(f"DEBUG: PyPDF2 failed: {e}")
+
+        # 2. If text is too short, try Vision OCR Fallback
+        if len(text.strip()) < 50:
+            print(f"DEBUG: Text too short ({len(text.strip())} chars). Attempting Vision OCR...")
+            ocr_text = get_pdf_text_via_vision(file_bytes)
+            
+            if len(ocr_text.strip()) > 10 and "Failed" not in ocr_text:
+                print(f"DEBUG: Vision OCR successful. Extracted {len(ocr_text)} chars.")
+                text = ocr_text # Replace entirely as the original was garbage/empty
+            else:
+                print(f"DEBUG: Vision OCR result: {ocr_text}")
+                # If explicit failure, we might want to show it or leave empty to trigger 'Unreadable' error
+
     return text
 
 # -----------------------------
@@ -406,9 +464,9 @@ def get_bill_info(data: str) -> dict:
     system_prompt = (
         "Act as an expert in extracting information from medical invoices. "
         "You are given the invoice details of a patient. Carefully extract the "
-        "'disease' and the 'expense amount' from the data. "
+        "'disease', 'expense amount', 'patient_name', 'date', and 'medical_facility' from the data. "
         "Return ONLY valid JSON in the exact format: "
-        "{\"disease\": \"...\", \"expense\": \"...\"}"
+        "{\"disease\": \"...\", \"expense\": \"...\", \"patient_name\": \"...\", \"date\": \"...\", \"medical_facility\": \"...\"}"
     )
     messages = [
         {"role": "system", "content": system_prompt},
@@ -423,7 +481,46 @@ def get_bill_info(data: str) -> dict:
     # Normalize keys
     disease = parsed.get("disease")
     expense = parsed.get("expense")
-    return {"disease": disease, "expense": expense}
+    patient_name = parsed.get("patient_name")
+    bill_date = parsed.get("date")
+    medical_facility = parsed.get("medical_facility")
+    
+    return {
+        "disease": disease, 
+        "expense": expense,
+        "patient_name": patient_name,
+        "date": bill_date,
+        "medical_facility": medical_facility
+    }
+
+def verify_claim_details(form: dict, bill: dict) -> tuple[bool, str]:
+    """
+    Verifies if the form details match the extracted bill details.
+    Returns (True, "") if valid, or (False, "reason") if invalid.
+    """
+    # 1. Verify Name (Fuzzy Match)
+    form_name = form.get("name", "").lower().strip()
+    bill_name = (bill.get("patient_name") or "").lower().strip()
+    
+    if bill_name:
+        # Simple similarity check
+        matcher = difflib.SequenceMatcher(None, form_name, bill_name)
+        if matcher.ratio() < 0.6: # Allow some OCR/Typo flexibility
+            return False, f"Patient Name Mismatch: Form says '{form.get('name')}', Bill says '{bill.get('patient_name')}'"
+
+    # 2. Verify Hospital (Fuzzy Match)
+    form_hospital = form.get("medical_facility", "").lower().strip()
+    bill_hospital = (bill.get("medical_facility") or "").lower().strip()
+    
+    if bill_hospital:
+        matcher = difflib.SequenceMatcher(None, form_hospital, bill_hospital)
+        if matcher.ratio() < 0.4: # Hospital names can be tricky (e.g. "Apollo" vs "Apollo Hospitals")
+            return False, f"Medical Facility Mismatch: Form says '{form.get('medical_facility')}', Bill says '{bill.get('medical_facility')}'"
+
+    # 3. Verify Amount (Hard check - already existed but moving logic here is cleaner, 
+    #    but we'll keep the existing amount check in the main route to minimize refactor risk)
+    
+    return True, ""
 
 # -----------------------------
 # Claim prompt(s)
@@ -562,8 +659,49 @@ def index():
     except Exception:
         total_claim_amount = 0
 
-    bill_text = get_file_content(medical_bill_file)
+    print(f"DEBUG: Processing file: {medical_bill_file.filename if medical_bill_file else 'None'}")
+    
+    # Pass the file object (FileStorage) directly to our smart function
+    bill_text = get_file_content(medical_bill_file) if medical_bill_file else ""
+
+    print(f"DEBUG: Total extracted extracted len: {len(bill_text)}")
+
     bill_info = get_bill_info(bill_text) if bill_text else {"disease": None, "expense": None}
+
+    # --- Enforce Bill Readability ---
+    if not bill_text or len(bill_text.strip()) < 10:
+        return render_template(
+            "result.html",
+            name=name,
+            address=address,
+            claim_type=claim_type,
+            claim_reason=claim_reason,
+            date=date,
+            medical_facility=medical_facility,
+            total_claim_amount=total_claim_amount,
+            description=description,
+            output=f"Error: Could not read text (len={len(bill_text)}). Ensure PDF is text-based."
+        )
+            
+    # --- Verify Identity Details ---
+    print(f"DEBUG: Extracted Bill Info: {bill_info}")
+    is_valid, validation_msg = verify_claim_details(form, bill_info)
+    print(f"DEBUG: Verification Result: {is_valid}, Msg: {validation_msg}")
+    
+    if not is_valid:
+            return render_template(
+            "result.html",
+            name=name,
+            address=address,
+            claim_type=claim_type,
+            claim_reason=claim_reason,
+            date=date,
+            medical_facility=medical_facility,
+            total_claim_amount=total_claim_amount,
+            description=description,
+            output=f"Verification Failed: {validation_msg}"
+        )
+    # ------------------------------------
 
     # If input amount > bill amount => reject
     try:
@@ -621,63 +759,7 @@ def index():
         )
 
     # Predict Fair Price
-    fair_price = "N/A"
-    # Use disease from bill, or fallback to claim_reason from form
-    disease_input = bill_info.get("disease") or claim_reason
-    
-    if fair_price_model and disease_input:
-        try:
-            # Fuzzy match to known diseases
-            matches = difflib.get_close_matches(disease_input, KNOWN_DISEASES, n=1, cutoff=0.4)
-            if matches:
-                disease_formatted = matches[0]
-                print(f"Matched '{disease_input}' to '{disease_formatted}'")
-            else:
-                disease_formatted = "Flu" # Default fallback if no match found
-                print(f"No match for '{disease_input}', defaulting to Flu")
-            
-            # Create a DataFrame for prediction
-            input_data = pd.DataFrame({
-                "Disease": [disease_formatted],
-                "Hospital_Tier": ["Tier 2"] # Defaulting to Tier 2
-            })
-            predicted_price = fair_price_model.predict(input_data)[0]
-            fair_price = f"₹{round(predicted_price, 2)}"
-        except Exception as e:
-            print(f"Prediction error for {disease_input}: {e}")
-            fair_price = "Error"
-
-    # Predict Fraud Risk
-    fraud_score = "N/A"
-    fraud_risk_level = "Unknown"
-    if fraud_model and disease_input:
-        try:
-             # Fuzzy match again for fraud model
-            matches = difflib.get_close_matches(disease_input, KNOWN_DISEASES, n=1, cutoff=0.4)
-            if matches:
-                disease_formatted = matches[0]
-            else:
-                disease_formatted = "Flu"
-
-            input_data = pd.DataFrame({
-                "Disease": [disease_formatted],
-                "Hospital_Tier": ["Tier 2"], # Default
-                "Claim_Amount": [total_claim_amount]
-            })
-            
-            # Get probability of class 1 (Fraud)
-            prob = fraud_model.predict_proba(input_data)[0][1]
-            fraud_score = f"{int(prob * 100)}%"
-            
-            if prob > 0.7:
-                fraud_risk_level = "HIGH RISK"
-            elif prob > 0.3:
-                fraud_risk_level = "Medium Risk"
-            else:
-                fraud_risk_level = "Low Risk"
-                
-        except Exception as e:
-            print(f"Fraud prediction error: {e}")
+    # Features removed.
 
     # Render
     output_html = re.sub(r"\n", "<br>", output or "No output generated.")
@@ -690,9 +772,6 @@ def index():
         date=date,
         medical_facility=medical_facility,
         total_claim_amount=total_claim_amount,
-        fair_price=fair_price,
-        fraud_score=fraud_score,
-        fraud_risk_level=fraud_risk_level,
         description=description,
         output=output_html,
     )
