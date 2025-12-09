@@ -278,6 +278,8 @@ import difflib
 import numpy as np
 import base64
 import fitz  # PyMuPDF
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Known diseases from training data
 KNOWN_DISEASES = [
